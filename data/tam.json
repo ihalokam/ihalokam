@@ -1,0 +1,86 @@
+{
+    "movies": [
+        {
+            "title": "Good Bad Ugly",
+            "releaseDate": "8 May 2025",
+            "cast": "Ajith Kumar, Trisha Krishnan, Arjun Das",
+            "crew": "Adhik Ravichandran (Director), Naveen Yerneni, Y. Ravi Shankar (Producers), G. V. Prakash Kumar (Music), Abinandhan Ramanujam (Cinematography), Vijay Velukutty (Editor)",
+            "plot": "Good Bad Ugly is a Tamil action thriller starring Ajith Kumar. The film follows an intense narrative of crime and redemption, packed with high-octane action sequences.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/h8MRCA7lUIiUgswtaJOxlXONZuT.jpg"
+        },
+        {
+            "title": "Veera Dheera Sooran: Part 2",
+            "releaseDate": "24 April 2025",
+            "cast": "Chiyaan Vikram, Dushara Vijayan, Suraj Venjaramoodu",
+            "crew": "S. U. Arun Kumar (Director), Riya Shibu (Producer), G. V. Prakash Kumar (Music), Theni Eswar (Cinematography), Prasanna GK (Editor)",
+            "plot": "Veera Dheera Sooran: Part 2 is a gripping Tamil action thriller. It follows Kaali, played by Vikram, as he confronts his past in a tale of revenge and family ties.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6iiWsXJ31BVbypWwzvoPKx24NFQ.jpg"
+        },
+        {
+            "title": "Test",
+            "releaseDate": "4 April 2025",
+            "cast": "R. Madhavan, Nayanthara, Siddharth, Meera Jasmine",
+            "crew": "S. Sashikanth (Director, Producer), Chakravarthy Ramachandra (Producer), Siddhartha Nuni (Cinematography), T. S. Suresh (Editor), Dhee (Music)",
+            "plot": "Test is a Tamil sports drama centered around a historic cricket match. It explores life-changing decisions faced by three individuals during a high-stakes game.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8jZaBr3dTIW8N4D6F4Cprssfm7V.jpg"
+        },
+        {
+            "title": "Perusu",
+            "releaseDate": "15 April 2025",
+            "cast": "Vaibhav, Anagha, Vani Bhojan",
+            "crew": "Ilango Ram (Director), Siddharth Vipin (Music), Information not available (Cinematography, Editor, Producer)",
+            "plot": "Perusu is a Tamil dark comedy revolving around a humorous yet awkward funeral scenario, blending quirky characters and unexpected twists.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/avD34sOjy6KbU1w6Xy9LhHYg60c.jpg"
+        },
+        {
+            "title": "Kingston",
+            "releaseDate": "13 April 2025",
+            "cast": "GV Prakash Kumar, Divya Bharathi, Yogi Babu",
+            "crew": "Kamalakannan (Director), G. V. Prakash Kumar (Music), Information not available (Cinematography, Editor, Producer)",
+            "plot": "Kingston is a Tamil fantasy horror film about a smuggler who must break a curse in haunted waters, filled with suspense and supernatural elements.",
+            "platform": "ZEE5",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tvSLcd9p8mB1z6EMFDzZP691JGz.jpg"
+        },
+        {
+            "title": "Kaadhal Enbadhu Podhu Udamai",
+            "releaseDate": "14 March 2025",
+            "cast": "Vineeth, Rohini, Bharathiraja, Lijomol Jose",
+            "crew": "Jayaprakash Radhakrishnan (Director), Charles (Music), Balaji Subramanyam (Cinematography), Information not available (Editor, Producer)",
+            "plot": "Kaadhal Enbadhu Podhu Udamai is a Tamil drama exploring modern love and sexuality, offering a bold take on relationships and societal norms.",
+            "platform": "Tentkotta",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lryeARt5N2A8KqxKH9FjBrb9pFE.jpg"
+        },
+        {
+            "title": "Kudumbasthan",
+            "releaseDate": "7 March 2025",
+            "cast": "Manikandan, Priyanka Mohan, Information not available",
+            "crew": "Rajeshwar Kalisamy (Director), Information not available (Music, Cinematography, Editor, Producer)",
+            "plot": "Kudumbasthan is a Tamil family drama focusing on the struggles of a middle-class man, blending emotional depth with relatable themes.",
+            "platform": "ZEE5",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/76AkmAqLNMMJZZWQXQ6KntEiLjK.jpg"
+        },
+        
+        {
+            "title": "Dragon",
+            "releaseDate": "21 March 2025",
+            "cast": "Pradeep Ranganathan, Anupama Parameswaran, K. S. Ravikumar",
+            "crew": "Pradeep Ranganathan (Director), AGS Entertainment (Producer), Anirudh Ravichander (Music), Niketh Bommi (Cinematography), Pradeep E. Ragav (Editor)",
+            "plot": "Dragon is a Tamil action thriller directed by and starring Pradeep Ranganathan, following a high-stakes narrative that became a box office hit.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vKNJPuejtE6Xrp6RK6LKsQcbL8L.jpg"
+        },
+        {
+            "title": "Vidaamuyarchi",
+            "releaseDate": "31 March 2025",
+            "cast": "Ajith Kumar, Trisha Krishnan, Arjun Sarja, Regina Cassandra",
+            "crew": "Magizh Thirumeni (Director), Subaskaran Allirajah (Producer), Anirudh Ravichander (Music), Om Prakash (Cinematography), N. B. Srikanth (Editor)",
+            "plot": "Vidaamuyarchi is a Tamil action thriller about a husband’s relentless search for his missing wife, packed with suspense and emotional depth.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yx7AYFLoupzBfdfEAlDFuOiei2A.jpg"
+        }
+    ]
+}

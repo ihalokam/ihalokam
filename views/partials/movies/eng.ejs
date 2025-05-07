@@ -1,0 +1,33 @@
+<%- include("../header.ejs") %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latest English OTT Release Movies 2025 | Top 10 English OTT Movies</title>
+  <meta name="description" content="Discover the top 10 latest English OTT release movies in 2025. Updated list with posters, OTT platforms, cast, crew, release dates, and plot summaries.">
+  <meta name="keywords" content="english ott, english ott release movies, latest english ott movies, new english ott releases 2025, best english ott movies, english ott movies 2025">
+</head>
+<body>
+  <h1 class="card">Top 10 Latest English OTT Release Movies (2025)</h1>
+  <p class="card">Looking for new English OTT movies released in 2025? Here’s a regularly updated list of the top trending titles with complete details on cast, crew, OTT platforms, and plots.</p>
+  
+  <div>
+    <% engMovies.forEach(movie => { %>
+      <div class="card" style="margin-bottom: 30px;">
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> - English OTT movie poster" style="width:200px;"><br>
+        <h2><%= movie.title %></h2>
+        <p><strong>Release Date:</strong> <%= movie.releaseDate %></p>
+        <p><strong>Cast:</strong> <%= movie.cast %></p>
+        <p><strong>Crew:</strong> <%= movie.crew %></p>
+        <p><strong>Plot:</strong> <%= movie.plot %></p>
+        <p><strong>OTT Platform:</strong> <%= movie.platform %></p>
+        <p><strong>Is this a new English OTT release?</strong> Yes, released in <%= movie.releaseDate.split(" ")[2] %>.</p>
+      </div>
+    <% }); %>
+  </div>
+</body>
+</html>
+
+<%- include("../footer.ejs") %>

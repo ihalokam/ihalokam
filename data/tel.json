@@ -1,0 +1,76 @@
+{
+    "movies": [
+        {
+            "title": "Jack (Konchem Krack)",
+            "releaseDate": "10 April 2025",
+            "cast": "Siddhu Jonnalagadda, Vaishnavi Chaitanya",
+            "crew": "Bommarillu Bhaskar (Director), B. V. S. S. Prasad (Producer), Achu Rajamani, Sam C.S., Suresh Bobbili (Music), Vijay K. Chakravarthy (Cinematography), Navin Nooli (Editor), Kolla Avinash (Art Director)",
+            "plot": "Jack (Konchem Krack) is a Telugu action thriller directed by Bommarillu Bhaskar. The film stars Siddhu Jonnalagadda and Vaishnavi Chaitanya in lead roles. It follows the story of Jack, an enigmatic character navigating through a series of high-stakes situations.",
+            "platform": "aha",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/luUA8nTvGE0GDiQRH7kWsXB4eR6.jpg"
+        },
+        {
+            "title": "Odela 2",
+            "releaseDate": "17 April 2025",
+            "cast": "Tamannaah Bhatia, Hebah Patel, Vasishta N. Simha, Murali Sharma",
+            "crew": "Ashok Teja (Director), D Madhu (Producer), Sampath Nandi (Writer), B. Ajaneesh Loknath (Music), Soundararajan (Cinematography)",
+            "plot": "Odela 2 is a supernatural thriller that continues the story from its predecessor. The film delves into mysterious events unfolding in the village of Odela, with new characters and darker secrets.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/73jYyHedLEOzMtg14Zp54g971Ga.jpg"
+        },
+        {
+            "title": "MAD Square",
+            "releaseDate": "28 March 2025",
+            "cast": "Information not available",
+            "crew": "Information not available",
+            "plot": "MAD Square is a Telugu comedy-drama that explores the chaotic lives of individuals connected through a central square in the city, leading to humorous and heartfelt moments.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zC5QC3F6KQEeq5GAydzkOZnOPZD.jpg"
+        },
+        {
+            "title": "Robinhood",
+            "releaseDate": "28 March 2025",
+            "cast": "Nithiin, Sree Leela, Shine Tom Chacko, Rajendra Prasad, Vennela Kishore",
+            "crew": "Venky Kudumula (Director), Naveen Yerneni, Y. Ravi Shankar (Producers), G. V. Prakash Kumar (Music), Chandrabose (Lyricist)",
+            "plot": "Robinhood is an action crime thriller featuring Ram, a master thief who unexpectedly becomes the personal security officer for Neera, leading to a series of comedic and action-packed events.",
+            "platform": "ZEE5",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zeH5oAM1A3zgXbvQ3L9GiDs3ldQ.jpg"
+        },
+        {
+            "title": "Manamey",
+            "releaseDate": "7 June 2024",
+            "cast": "Sharwanand, Krithi Shetty, Rahul Ramakrishna, Seerat Kapoor, Rahul Ravindran, Ayesha Khan, Vennela Kishore",
+            "crew": "Sriram Aditya (Director, Writer), TG Vishwa Prasad (Producer), Hesham Abdul Wahab (Music), Vishnu Sarma (Cinematography), Krithi Prasad (Creative Producer), Vivek Kuchibhotla (Co-Producer)",
+            "plot": "Manamey is a romantic comedy-drama that follows the journey of two contrasting individuals brought together by fate, leading to an epic journey filled with love and self-discovery.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/a3Q4pzat2v7Kml5K5bSuBfpnZcJ.jpg"
+        },
+        {
+            "title": "Shanmukha",
+            "releaseDate": "21 March 2025",
+            "cast": "Information not available",
+            "crew": "Information not available",
+            "plot": "Shanmukha is an adventure drama thriller that takes the audience on a suspenseful journey filled with unexpected twists and turns.",
+            "platform": "aha",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eCJvGD8WjHOIOcEDtnIa72hfvSo.jpg"
+        },
+        {
+            "title": "Muthayya",
+            "releaseDate": "14 February 2025",
+            "cast": "Information not available",
+            "crew": "Information not available",
+            "plot": "Muthayya is a Telugu comedy-drama that delves into the life of its titular character, exploring themes of ambition, family, and societal expectations.",
+            "platform": "ETV Win",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zLSRAqCLUJY8hB1UmYdBLvfK0Me.jpg"
+        },
+        {
+            "title": "Mechanic Rocky",
+            "releaseDate": "22 November 2024",
+            "cast": "Vishwak Sen, Shraddha Srinath, Meenakshi Chaudhary",
+            "crew": "Ravi Teja Mullapudi (Director, Writer), Ram Talluri (Producer), Jakes Bejoy (Music), Manojh Reddy (Cinematography), Anwar Ali (Editor)",
+            "plot": "Mechanic Rocky is an action comedy-drama featuring Vishwak Sen in a dual role. The film follows Rocky, a mechanic entangled in a series of comedic and action-filled events.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/muEYTKq3R4aQd44aa3GxcTM5taF.jpg"
+        }
+    ]
+}

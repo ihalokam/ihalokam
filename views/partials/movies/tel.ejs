@@ -1,0 +1,60 @@
+<%- include("../header.ejs") %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latest Telugu OTT Releases 2025 | New Telugu Movies on OTT This Week</title>
+  <meta name="description" content="Check all new Telugu OTT releases including Aavesham, Ayalaan, Premalu & Manjummel Boys. Get Telugu OTT release dates, streaming platforms & movie details.">
+  <meta name="keywords" content="telugu ott releases, aavesham telugu ott, ayalaan telugu ott release date, telugu ott releases this week, premalu telugu ott, manjummel boys telugu ott, new telugu ott releases, latest telugu ott releases, kalki telugu ott">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourwebsite.com/telugu-ott-releases" />
+</head>
+<body>
+  <h1 class="card">New Telugu OTT Releases This Week (2025)</h1>
+  
+  <div class="card" style="margin-bottom:20px;">
+    <h2>Latest Telugu Movies Streaming on OTT Platforms</h2>
+    <p>Discover all the newest Telugu movies now available on OTT platforms. We update weekly with Telugu OTT release dates for Aavesham, Premalu, Ayalaan, Manjummel Boys and more hit films.</p>
+  </div>
+  
+  <div>
+    <% telMovies.forEach(movie => { %>
+      <div class="card" style="margin-bottom: 30px;">
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> Telugu OTT movie poster" style="width:200px;"><br>
+        <h2><%= movie.title %> Telugu OTT Release</h2>
+        <p><strong>OTT Platform:</strong> <%= movie.platform %></p>
+        <p><strong>Release Date:</strong> <%= movie.releaseDate %></p>
+        <p><strong>Cast:</strong> <%= movie.cast %></p>
+        <p><strong>Director:</strong> <%= movie.crew %></p>
+        <p><strong>Story:</strong> <%= movie.plot %></p>
+        <p><a href="#">Watch <%= movie.title %> on <%= movie.platform %></a></p>
+      </div>
+    <% }); %>
+  </div>
+  
+  <div class="card">
+    <h2>Other Telugu OTT Dubbed Releases</h2>
+    <ul>
+      <li>Aavesham Telugu OTT Release Date (Coming Soon)</li><br>
+      <li>Manjummel Boys Telugu Version OTT Release</li><br>
+      <li>Kalki Telugu OTT Streaming Details</li><br>
+      <li>Premalu Telugu Dub OTT Platform</li><br>
+    </ul>
+    <p>Bookmark this page for weekly updates on Telugu movies coming to OTT platforms.</p><br>
+  </div>
+  
+  <div class="card">
+    <h2>Popular Telugu OTT Movies</h2>
+    <p>Recent hits now streaming:</p>
+    <ul>
+      <li>RRR Telugu OTT Version</li><br>
+      <li>777 Charlie Telugu Dub</li><br>
+      <li>Kudumbasthan Telugu Streaming</li><br>
+    </ul>
+  </div>
+</body>
+</html>
+
+<%- include("../footer.ejs") %>

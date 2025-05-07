@@ -1,0 +1,85 @@
+import express from "express";
+import bodyParser from "body-parser";
+import fs from 'fs';
+import expressSitemap from 'express-sitemap';
+
+const app = express();
+const port = 3000;
+const sitemap = expressSitemap();
+
+app.use(express.static("public"));
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// Load movie data
+const malData = JSON.parse(fs.readFileSync('./data/mal.json', 'utf-8'));
+const malMovies = malData.movies;
+
+const telData = JSON.parse(fs.readFileSync('./data/tel.json', 'utf-8'));
+const telMovies = telData.movies;
+
+const tamData = JSON.parse(fs.readFileSync('./data/tam.json', 'utf-8'));
+const tamMovies = tamData.movies;
+
+const hinData = JSON.parse(fs.readFileSync('./data/hin.json', 'utf-8'));
+const hinMovies = hinData.movies;
+
+const kanData = JSON.parse(fs.readFileSync('./data/kann.json', 'utf-8'));
+const kanMovies = kanData.movies;
+
+const engData = JSON.parse(fs.readFileSync('./data/eng.json', 'utf-8'));
+const engMovies = engData.movies;
+
+// Sitemap route
+app.get('/sitemap.xml', (req, res) => {
+  sitemap.generate(req, res);
+});
+
+// Routes
+app.get("/", (req, res) => {
+  res.render("index.ejs");
+});
+
+app.get("/mal", (req, res) => {
+  res.render("partials/movies/mal.ejs", { malMovies });
+});
+
+app.get("/tel", (req, res) => {
+  res.render("partials/movies/tel.ejs", { telMovies });
+});
+
+app.get("/tam", (req, res) => {
+  res.render("partials/movies/tamil.ejs", { tamMovies });
+});
+
+app.get("/hin", (req, res) => {
+  res.render("partials/movies/hindi.ejs", { hinMovies });
+});
+
+app.get("/kann", (req, res) => {
+  res.render("partials/movies/kann.ejs", { kanMovies });
+});
+
+app.get("/eng", (req, res) => {
+  res.render("partials/movies/eng.ejs", { engMovies });
+});
+
+app.get("/terms-of-service", (req, res) => {
+  res.render("partials/terms-of-service.ejs");
+});
+
+app.get("/privacy-policy", (req, res) => {
+  res.render("partials/privacy-policy.ejs");
+});
+
+app.get("/disclaimer", (req, res) => {
+  res.render("partials/disclaimer.ejs");
+});
+
+// 404 handler
+app.use((req, res) => {
+  res.status(404).render("index.ejs");
+});
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});

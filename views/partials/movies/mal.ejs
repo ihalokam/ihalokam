@@ -1,0 +1,50 @@
+<%- include("../header.ejs") %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New Malayalam OTT Releases 2025 | Latest Malayalam Movies on OTT Platforms</title>
+  <meta name="description" content="Discover the latest Malayalam OTT releases 2025 with our weekly updated list. Find new Malayalam movies on OTT platforms with release dates, cast, crew, and where to watch.">
+  <meta name="keywords" content="new malayalam ott releases, malayalam ott release, latest malayalam ott releases, malayalam ott movies, new malayalam ott movies, malayalam ott release this week, upcoming malayalam ott releases">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourwebsite.com/malayalam-ott-releases" />
+</head>
+<body>
+  <h1 class="card">New Malayalam OTT Releases This Week - 2025 Latest Updates</h1>
+  <div class="ott-update-info">
+    <p style="margin-left: 180px;">Last updated: <%= new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) %></p>
+  </div>
+  <div>
+    <% malMovies.forEach(movie => { %>
+      <div class="card" style="margin-bottom: 30px;" itemscope itemtype="https://schema.org/Movie">
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> Malayalam OTT release poster" style="width:200px;" itemprop="image"><br>
+        <h2 itemprop="name"><%= movie.title %></h2>
+        <p><strong>Release Date:</strong> <span itemprop="datePublished"><%= movie.releaseDate %></span></p>
+        <div itemprop="actor" itemscope itemtype="https://schema.org/Person">
+          <p><strong>Cast:</strong> <span itemprop="name"><%= movie.cast %></span></p>
+        </div>
+        <div itemprop="director" itemscope itemtype="https://schema.org/Person">
+          <p><strong>Crew:</strong> <span itemprop="name"><%= movie.crew %></span></p>
+        </div>
+        <p itemprop="description"><strong>Plot:</strong> <%= movie.plot %></p>
+        <p><strong>OTT Platform:</strong> <span itemprop="provider"><%= movie.platform %></span></p>
+        <meta itemprop="genre" content="Malayalam Cinema"/>
+      </div>
+    <% }); %>
+  </div>
+  <div class="related-searches">
+    <h3>Popular Malayalam OTT Searches</h3>
+    <ol class="dotted-list">
+      <li>New Malayalam OTT releases 2025</li><br>
+      <li>Malayalam OTT release this week</li><br>
+      <li>Latest Malayalam movies on OTT</li><br>
+      <li>Upcoming Malayalam OTT movies</li><br>
+      <li>Where to watch new Malayalam films</li><br>
+    </ol>
+  </div>
+</body>
+</html>
+
+<%- include("../footer.ejs") %>

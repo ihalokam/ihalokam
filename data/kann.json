@@ -1,0 +1,49 @@
+{
+    "movies": [
+        {
+            "title": "Ayyana Mane",
+            "releaseDate": "25 April 2025",
+            "cast": "Kushee Ravi, Pramod Shetty, Information not available",
+            "crew": "Shruti Naidu Chitra (Producer), Information not available (Director, Music, Cinematography, Editor)",
+            "plot": "Ayyana Mane is a gripping Kannada thriller that delves into a suspenseful narrative, captivating audiences with its intense storytelling and strong performances.",
+            "platform": "ZEE5",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ktGeo5XTYoR0jxnIFjcdzlxW1Ol.jpg"
+        },
+        {
+            "title": "Rakshasa",
+            "releaseDate": "11 April 2025",
+            "cast": "Prajwal Devaraj, Kushee Ravi, Information not available",
+            "crew": "Information not available (Director, Producer, Music, Cinematography, Editor)",
+            "plot": "Rakshasa is a spine-chilling Kannada horror thriller that follows a gripping tale of supernatural terror, earning praise for its intense visuals and narrative.",
+            "platform": "Sun NXT",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/g83UlqyPYSTkbOLLsE4G7N7zZCF.jpg"
+        },
+        {
+            "title": "Nite Road",
+            "releaseDate": "21 March 2025",
+            "cast": "Dharma, Information not available",
+            "crew": "Information not available (Director, Producer, Music, Cinematography, Editor)",
+            "plot": "Nite Road is a Kannada murder mystery-thriller that unravels a suspenseful tale with unexpected twists, keeping viewers on the edge of their seats.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lKuFV42ROO6d391OLHFKL5VUK83.jpg"
+        },
+        {
+            "title": "Forest",
+            "releaseDate": "14 March 2025",
+            "cast": "Avinash, Chikkanna, Gurunandan",
+            "crew": "Information not available (Director, Producer, Music, Cinematography, Editor)",
+            "plot": "Forest is a thrilling Kannada comedy-thriller about travelers trapped in a mysterious forest, blending suspense, humor, and eerie creatures for a wild ride.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kJmAq4D8XNoKqt2Fj4cjXZ06LSe.jpg"
+        },
+        {
+            "title": "Max",
+            "releaseDate": "15 February 2025",
+            "cast": "Kiccha Sudeep, Sukrutha Wagle, Varalaxmi Sarathkumar, Samyukta Hornad, Anirudh Bhat, Ilavarasu",
+            "crew": "Vijay Karthikeyaa (Director), Kalaippuli S Thanu (Producer), Information not available (Music, Cinematography, Editor)",
+            "plot": "Max is a high-octane Kannada action thriller following Inspector Arjun Mahakshay, a suspended officer tackling a crisis involving mysterious deaths, lauded for Sudeep’s charisma.",
+            "platform": "ZEE5",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wrkPOgbJpqCRqY0Z8cbltxLGwzl.jpg"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+<%- include("../header.ejs") %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latest Tamil OTT Releases 2025 | New Tamil Movies on OTT Platforms</title>
+  <meta name="description" content="Discover the latest Tamil OTT releases this week including Aavesham, Hotspot and more. Get release dates, OTT platforms, cast details for new Tamil movies streaming online.">
+  <meta name="keywords" content="tamil ott release this week, aavesham tamil ott, hotspot movie tamil ott, new tamil ott releases, tamil ott release movies, latest tamil ott releases, tamil ott movies, tamil ott release 2025, tamil ott platform">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourwebsite.com/tamil-ott-releases" />
+</head>
+<body>
+  <h1 class="card">Latest Tamil OTT Releases This Week (2025)</h1>
+  
+  <div class="card" style="margin-bottom:20px;">
+    <h2>New Tamil Movies Coming to OTT Platforms</h2>
+    <p>Stay updated with all the new Tamil OTT releases including theatrical movies now available on digital platforms. Check release dates for upcoming Tamil films on OTT.</p>
+  </div>
+  
+  <div>
+    <% tamMovies.forEach(movie => { %>
+      <div class="card" style="margin-bottom: 30px;">
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> Tamil OTT movie poster" style="width:200px;"><br>
+        <h2><%= movie.title %> (<%= movie.releaseDate %>) - Tamil OTT Release</h2>
+        <p><strong>OTT Release Date:</strong> <%= movie.ottReleaseDate || movie.releaseDate %></p>
+        <p><strong>Streaming On:</strong> <%= movie.platform %></p>
+        <p><strong>Cast:</strong> <%= movie.cast %></p>
+        <p><strong>Director:</strong> <%= movie.crew %></p>
+        <p><strong>Plot Summary:</strong> <%= movie.plot %></p>
+        <p><strong>Watch <%= movie.title %> on <%= movie.platform %> now</strong></p>
+      </div>
+    <% }); %>
+  </div>
+  
+  <div class="card">
+    <h2>Upcoming Tamil OTT Releases</h2>
+    <p>Coming soon to OTT platforms: Kalki Tamil OTT, Deadpool and Wolverine Tamil OTT version, and more big releases.</p>
+  </div>
+</body>
+</html>
+
+<%- include("../footer.ejs") %>

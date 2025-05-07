@@ -1,0 +1,183 @@
+#heading {
+    text-align: center;
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-ele {
+    font-family: "Nova Cut", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-ele:hover {
+    color: #04883f; /* Change to a lit color */
+    text-shadow: 0 0 10px #08941f, 0 0 20px #ffcc00; /* Add glowing effect */
+}
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgb(106, 194, 216);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+select {
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+}
+.movie-poster {
+    width: 100%;
+    max-width: 150px; /* Further reduced size for smaller images */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.movie-poster:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+.footer-font {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #000; /* Changed text color to black */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, lightgrey, grey); /* Added gradient background */
+    transition: background 0.3s ease, color 0.3s ease; /* Updated transition for gradient background */
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000; /* Changed text color to black */
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000; /* Changed text color to black */
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a:hover {
+    color: #000; /* Changed hover text color to black */
+}
+
+.footer-section .social-media a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #000; /* Changed text color to black */
+    transition: color 0.3s;
+}
+
+.footer-section .social-media a:hover {
+    color: #000; /* Changed hover text color to black */
+}
+
+.footer-section .attribution,
+.footer-section .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #000; /* Changed text color to black */
+}
+
+.footer-section .legal ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-section .legal ul li a:hover {
+    color: #000; /* Changed hover text color to black */
+}
+
+.footer-section .contact a {
+    color: #000; /* Changed text color to black */
+    text-decoration: underline;
+}
+
+.footer-section .contact a:hover {
+    color: #000; /* Changed hover text color to black */
+}
+

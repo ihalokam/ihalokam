@@ -1,0 +1,71 @@
+<%- include("../header.ejs") %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latest Hindi OTT Releases 2025 | New Hindi Dubbed Movies on OTT Platforms</title>
+  <meta name="description" content="Discover all new Hindi OTT releases including Kantara, Devara, Aavesham & Salaar. Get Hindi dubbed movie OTT release dates, streaming platforms & watch online.">
+  <meta name="keywords" content="kantara hindi ott, devara hindi ott release date, aavesham hindi ott, marco hindi ott, kanguva hindi ott release date, game changer hindi ott, salaar hindi ott, the family star hindi ott, hindi ott releases">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourwebsite.com/hindi-ott-releases" />
+  <meta property="og:title" content="Latest Hindi OTT Releases 2025 | New Hindi Dubbed Movies">
+  <meta property="og:description" content="Check Kantara, Devara, Aavesham Hindi OTT release dates and streaming platforms">
+</head>
+<body>
+  <h1 class="card">New Hindi OTT Releases This Week (2025)</h1>
+  
+  <div class="card" style="margin-bottom:20px;">
+    <h2>Latest Hindi Dubbed Movies on OTT Platforms</h2>
+    <p>Updated daily with all new Hindi OTT releases including South Indian dubbed movies like Kantara, Salaar, and original Hindi films. Find exact release dates for Devara, Aavesham, Marco and more.</p>
+  </div>
+  
+  <div>
+    <% hinMovies.forEach(movie => { %>
+      <div class="card" style="margin-bottom: 30px;">
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> Hindi OTT movie poster" style="width:200px;"><br>
+        <h2><%= movie.title %> Hindi OTT Release</h2>
+        <p><strong>Now Streaming On:</strong> <%= movie.platform %></p>
+        <p><strong>OTT Release Date:</strong> <%= movie.releaseDate %></p>
+        <p><strong>Cast:</strong> <%= movie.cast %></p>
+        <p><strong>Director:</strong> <%= movie.crew %></p>
+        <p><strong>Story:</strong> <%= movie.plot %></p>
+        <p><a href="#">Watch <%= movie.title %> Hindi Version on <%= movie.platform %></a></p>
+      </div>
+    <% }); %>
+  </div>
+  
+  <div class="card">
+    <h2>Upcoming Hindi OTT Releases</h2>
+    <ul>
+      <li>Devara Hindi OTT Release Date (Coming Soon)</li>
+      <li>Kanguva Hindi Dubbed Version OTT Release</li>
+      <li>Game Changer Hindi OTT Platform Announcement</li>
+      <li>Marco Hindi Version Streaming Details</li>
+    </ul>
+  </div>
+  
+  <div class="card">
+    <h2>Popular Hindi OTT Movies</h2>
+    <ul>
+      <li>Salaar Hindi Dubbed Version</li>
+      <li>Kantara Hindi OTT Streaming</li>
+      <li>The Family Star Hindi Version</li>
+      <li>Super Deluxe Hindi Dubbed</li>
+    </ul>
+  </div>
+  
+  <div class="card">
+    <h2>Hindi OTT Release Calendar</h2>
+    <p>Bookmark this page for daily updates on:</p>
+    <ul>
+      <li>Aavesham Hindi OTT release date</li>
+      <li>Kalki Hindi dubbed version updates</li>
+      <li>Aranmanai 4 in Hindi OTT news</li>
+    </ul>
+  </div>
+</body>
+</html>
+
+<%- include("../footer.ejs") %>

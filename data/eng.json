@@ -1,0 +1,49 @@
+{
+    "movies": [
+        {
+            "title": "Another Simple Favor",
+            "releaseDate": "1 May 2025",
+            "cast": "Anna Kendrick, Blake Lively, Henry Golding, Andrew Rannells, Bashir Salahuddin, Elizabeth Perkins",
+            "crew": "Paul Feig (Director), Jessica Sharzer (Writer), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "Another Simple Favor is a stylish English thriller-comedy sequel. Stephanie and Emily dive into another twisted mystery, blending deception, fashion, and dark humor, captivating audiences.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zboCGZ4aIqPMd7VFI4HWnmc7KYJ.jpg"
+        },
+        {
+            "title": "A Different Man",
+            "releaseDate": "25 April 2025",
+            "cast": "Sebastian Stan, Renate Reinsve, Adam Pearson",
+            "crew": "Aaron Schimberg (Director), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "A Different Man is a thought-provoking English psychological thriller. An aspiring actor undergoes a drastic transformation, unraveling identity and obsession, praised for its bold narrative.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lZZKTEvo92u1J5pm7QoEA5yN3du.jpg"
+        },
+        {
+            "title": "Presence",
+            "releaseDate": "11 April 2025",
+            "cast": "Lucy Liu, Chris Pine, Sophia Lillis",
+            "crew": "Steven Soderbergh (Director), David Koepp (Writer), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "Presence is a chilling English supernatural thriller. A family moves into a haunted house, facing eerie events from the house’s perspective, lauded for its innovative storytelling.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hZ8dTeBzigV5SVgwG1ikSROAFiS.jpg"
+        },
+        {
+            "title": "A Big Bold Beautiful Journey",
+            "releaseDate": "14 March 2025",
+            "cast": "Margot Robbie, Colin Farrell, Lily-Rose Depp, Phoebe Waller-Bridge",
+            "crew": "Kogonada (Director), Seth Reiss (Writer), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "A Big Bold Beautiful Journey is a heartfelt English romantic drama. Two strangers embark on an unexpected road trip, finding love and self-discovery, celebrated for its star power.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/djbDYbtJ4oRItk6OL3X24yrXrAW.jpg"
+        },
+        {
+            "title": "Flight Risk",
+            "releaseDate": "14 February 2025",
+            "cast": "Mark Wahlberg, Michelle Dockery, Topher Grace",
+            "crew": "Mel Gibson (Director), Jared Rosenberg (Writer), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "Flight Risk is a tense English action thriller. A pilot transporting a fugitive faces betrayal and danger in a stormy flight, gripping viewers with its high-stakes drama.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q0bCG4NX32iIEsRFZqRtuvzNCyZ.jpg"
+        }
+    ]
+}

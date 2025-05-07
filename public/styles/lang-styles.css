@@ -1,0 +1,60 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  
+  /* Center the card horizontally */
+  margin: 0 auto;
+  display: block;
+  width: 80%; /* or any specific width you prefer like 300px */
+  
+  /* Optional: Add some spacing */
+  padding: 20px;
+}
+
+/* Add hover effect to the card */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  transform: scale(1.05); /* Slightly enlarge the card */
+}
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  img {
+    width: 100%;
+    max-width: 150px; /* Further reduced size for smaller images */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: url('golden-fire-cursor.png'), auto; /* Custom cursor */
+  }
+
+  img:hover {
+    transform: scale(1.1); /* Slightly enlarge the image */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    cursor: url('golden-fire-cursor-hover.png'), auto; /* Change cursor on hover */
+  }
+  .dotted-list {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  .dotted-list li {
+    position: relative;
+    margin-bottom: 8px;
+  }
+  .dotted-list li::before {
+    content: "•";
+    position: absolute;
+    left: -15px;
+    color: #000;
+  }
+  .related-searches {
+    margin-left: 50px;
+  }

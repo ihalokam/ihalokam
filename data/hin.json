@@ -1,0 +1,86 @@
+{
+    "movies": [
+        {
+            "title": "The Diplomat",
+            "releaseDate": "9 May 2025",
+            "cast": "John Abraham, Sadia Khateeb, Kumud Mishra, Revathy, Sharib Hashmi",
+            "crew": "Shivam Nair (Director), Ritesh Shah (Writer), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "The Diplomat is a gripping Hindi political thriller based on the true rescue mission of Uzma Ahmed from Pakistan, showcasing a diplomat’s high-stakes journey.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uwl9Y4px8TTIQK4N19k6gnW1RnX.jpg"
+        },
+        {
+            "title": "Costao",
+            "releaseDate": "1 May 2025",
+            "cast": "Nawazuddin Siddiqui, Sanjay Mishra, Information not available",
+            "crew": "Information not available (Director, Producer, Music, Cinematography, Editor)",
+            "plot": "Costao is a biographical crime drama about Costao Fernandes, a fearless 1990s Goa customs officer battling a gold smuggling syndicate, lauded for Nawazuddin’s performance.",
+            "platform": "ZEE5",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yVMkRDvLSxOdDIHtc5oaVfBbQs5.jpg"
+        },
+        {
+            "title": "Jewel Thief",
+            "releaseDate": "25 April 2025",
+            "cast": "Saif Ali Khan, Jaideep Ahlawat, Kunal Khemu",
+            "crew": "Siddharth Anand (Director), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "Jewel Thief is a slick Hindi crime thriller following a master con artist’s audacious plan to steal the African Red Sun diamond, packed with suspense.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eujLbO0kf1eqWC8XpHUJdtAVW2J.jpg"
+        },
+        {
+            "title": "Chhaava",
+            "releaseDate": "11 April 2025",
+            "cast": "Vicky Kaushal, Rashmika Mandanna, Akshaye Khanna, Ashutosh Rana, Divya Dutta",
+            "crew": "Laxman Utekar (Director), Dinesh Vijan (Producer), A. R. Rahman (Music), Information not available (Cinematography, Editor)",
+            "plot": "Chhaava is a Hindi historical drama depicting Chhatrapati Sambhaji Maharaj’s heroic battles against the Mughals, celebrated for Vicky Kaushal’s intense portrayal.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ubRsrzb6NRW8YhVTJ6jG1kpNvCi.jpg"
+        },
+        {
+            "title": "Chhorii 2",
+            "releaseDate": "11 April 2025",
+            "cast": "Nushrratt Bharuccha, Saurabh Goyal, Soha Ali Khan, Pallavi Patil, Gashmeer Mahajani",
+            "crew": "Vishal Furia (Director), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "Chhorii 2 is a chilling Hindi horror drama about a mother’s fight to save her daughter from ancient superstitions and modern evils, gripping audiences.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mCgKANxZJW645pXdmJdBb4ysRPk.jpg"
+        },
+        {
+            "title": "Be Happy",
+            "releaseDate": "14 March 2025",
+            "cast": "Abhishek Bachchan, Nora Fatehi, Johny Lever",
+            "crew": "Remo D’Souza (Director), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "Be Happy is a heartwarming Hindi drama about a single father and his daughter’s dream to shine in a dance reality show, resonating with viewers.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6bvW47MtJKo2ipPYJ2xDvdf4zbz.jpg"
+        },
+        {
+            "title": "Nadaaniyan",
+            "releaseDate": "7 March 2025",
+            "cast": "Ibrahim Ali Khan, Khushi Kapoor, Suniel Shetty",
+            "crew": "Information not available (Director, Producer, Music, Cinematography, Editor)",
+            "plot": "Nadaaniyan is a vibrant Hindi romantic comedy about young lovers navigating love and societal pressures in a bustling city, popular for its fresh pairing.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vQsGkLx68lmAdGwNapaaq3qqwKn.jpg"
+        },
+       
+        {
+            "title": "Housefull 5",
+            "releaseDate": "14 February 2025",
+            "cast": "Akshay Kumar, Riteish Deshmukh, Abhishek Bachchan, Jacqueline Fernandez, Nargis Fakhri",
+            "crew": "Tarun Mansukhani (Director), Sajid Nadiadwala (Producer), Information not available (Music, Cinematography, Editor)",
+            "plot": "Housefull 5 is a chaotic Hindi comedy filled with mistaken identities and hilarious mishaps, continuing the franchise’s legacy with a star-studded cast.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iGvGkVOfsooO0ZBrhN5i6zXYUCy.jpg"
+        },
+        {
+            "title": "Black Warrant",
+            "releaseDate": "10 January 2025",
+            "cast": "Zahan Kapoor, Anupam Kher, Information not available",
+            "crew": "Vikramaditya Motwane, Satyanshu Singh, Rohin Raveendran Nair, Amriecka Pandit (Directors), Sunil Gupta, Sunetra Chaudhary (Writers), Information not available (Producer, Music, Cinematography, Editor)",
+            "plot": "Black Warrant is a gritty Hindi crime drama exploring the underworld of crime and justice, noted for its compelling narrative and strong performances.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/u6Gs1IzzPJsmXKdc9alGaxtChQu.jpg"
+        }
+    ]
+}

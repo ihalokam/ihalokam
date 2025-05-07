@@ -1,0 +1,31 @@
+<%- include("../header.ejs") %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top Latest Kannada Movies 2025</title>
+  <meta name="description" content="A curated list of the top 10 latest Malayalam movies in 2025 with posters, release dates, OTT platforms, and full cast/crew details.">
+  <meta name="keywords" content="Malayalam movies 2025, latest Malayalam films, top 10 Malayalam cinema, OTT Malayalam 2025">
+</head>
+<body>
+  <h1 class="card">Top Latest Kannada Movies</h1>
+  <div>
+    <% kanMovies.forEach(movie => { %>
+      <div class="card" style="margin-bottom: 30px;">
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> poster" style="width:200px;"><br>
+        <h2><%= movie.title %></h2>
+        <p><strong>Release Date:</strong> <%= movie.releaseDate %></p>
+        <p><strong>Cast:</strong> <%= movie.cast %></p>
+        <p><strong>Crew:</strong> <%= movie.crew %></p>
+        <p><strong>Plot:</strong> <%= movie.plot %></p>
+        <p><strong>OTT Platform:</strong> <%= movie.platform %></p>
+      </div>
+    <% }); %>
+  </div>
+</body>
+</html>
+
+
+<%- include("../footer.ejs") %>
