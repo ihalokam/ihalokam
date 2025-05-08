@@ -1,36 +1,40 @@
 import express from "express";
 import bodyParser from "body-parser";
-import fs from 'fs';
-import expressSitemap from 'express-sitemap';
+import fs from "fs";
+import expressSitemap from "express-sitemap";
+import path from "path";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const sitemap = expressSitemap();
 
-app.use(express.static("public"));
+app.set("views", path.join(process.cwd(), "views"));
+app.set("view engine", "ejs");
+
+app.use(express.static(path.join(process.cwd(), "public")));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Load movie data
-const malData = JSON.parse(fs.readFileSync('./data/mal.json', 'utf-8'));
+const malData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/mal.json"), "utf-8"));
 const malMovies = malData.movies;
 
-const telData = JSON.parse(fs.readFileSync('./data/tel.json', 'utf-8'));
+const telData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/tel.json"), "utf-8"));
 const telMovies = telData.movies;
 
-const tamData = JSON.parse(fs.readFileSync('./data/tam.json', 'utf-8'));
+const tamData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/tam.json"), "utf-8"));
 const tamMovies = tamData.movies;
 
-const hinData = JSON.parse(fs.readFileSync('./data/hin.json', 'utf-8'));
+const hinData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/hin.json"), "utf-8"));
 const hinMovies = hinData.movies;
 
-const kanData = JSON.parse(fs.readFileSync('./data/kann.json', 'utf-8'));
+const kanData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/kann.json"), "utf-8"));
 const kanMovies = kanData.movies;
 
-const engData = JSON.parse(fs.readFileSync('./data/eng.json', 'utf-8'));
+const engData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/eng.json"), "utf-8"));
 const engMovies = engData.movies;
 
 // Sitemap route
-app.get('/sitemap.xml', (req, res) => {
+app.get("/sitemap.xml", (req, res) => {
   sitemap.generate(req, res);
 });
 
