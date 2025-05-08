@@ -3,6 +3,7 @@ import bodyParser from "body-parser";
 import fs from "fs";
 import expressSitemap from "express-sitemap";
 import path from "path";
+import favicon from "serve-favicon";
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -13,6 +14,10 @@ app.set("view engine", "ejs");
 
 app.use(express.static(path.join(process.cwd(), "public")));
 app.use(bodyParser.urlencoded({ extended: true }));
+import favicon from "serve-favicon";s
+
+// Serve the favicon
+app.use(favicon(path.join(process.cwd(), "public", "favicon.ico")));
 
 // Load movie data
 const malData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/mal.json"), "utf-8"));
