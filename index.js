@@ -14,7 +14,6 @@ app.set("view engine", "ejs");
 
 app.use(express.static(path.join(process.cwd(), "public")));
 app.use(bodyParser.urlencoded({ extended: true }));
-import favicon from "serve-favicon";
 
 // Serve the favicon
 app.use(favicon(path.join(process.cwd(), "public", "favicon.ico")));
