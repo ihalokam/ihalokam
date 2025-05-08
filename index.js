@@ -7,8 +7,74 @@ import favicon from "serve-favicon";
 
 const app = express();
 const port = process.env.PORT || 3000;
-const sitemap = expressSitemap();
 
+// Configure sitemap
+const sitemap = expressSitemap({
+  map: {
+    "/": ["get"],
+    "/mal": ["get"],
+    "/tel": ["get"],
+    "/tam": ["get"],
+    "/hin": ["get"],
+    "/kann": ["get"],
+    "/eng": ["get"],
+    "/terms-of-service": ["get"],
+    "/privacy-policy": ["get"],
+    "/disclaimer": ["get"],
+  },
+  route: {
+    "/": {
+      lastmod: "2025-05-08",
+      changefreq: "daily",
+      priority: 1.0,
+    },
+    "/mal": {
+      lastmod: "2025-05-08",
+      changefreq: "weekly",
+      priority: 0.8,
+    },
+    "/tel": {
+      lastmod: "2025-05-08",
+      changefreq: "weekly",
+      priority: 0.8,
+    },
+    "/tam": {
+      lastmod: "2025-05-08",
+      changefreq: "weekly",
+      priority: 0.8,
+    },
+    "/hin": {
+      lastmod: "2025-05-08",
+      changefreq: "weekly",
+      priority: 0.8,
+    },
+    "/kann": {
+      lastmod: "2025-05-08",
+      changefreq: "weekly",
+      priority: 0.8,
+    },
+    "/eng": {
+      lastmod: "2025-05-08",
+      changefreq: "weekly",
+      priority: 0.8,
+    },
+    "/terms-of-service": {
+      lastmod: "2025-05-08",
+      changefreq: "yearly",
+      priority: 0.5,
+    },
+    "/privacy-policy": {
+      lastmod: "2025-05-08",
+      changefreq: "yearly",
+      priority: 0.5,
+    },
+    "/disclaimer": {
+      lastmod: "2025-05-08",
+      changefreq: "yearly",
+      priority: 0.5,
+    },
+  },
+}, app); // Pass the Express app instance here
 app.set("views", path.join(process.cwd(), "views"));
 app.set("view engine", "ejs");
 
@@ -17,25 +83,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Serve the favicon
 app.use(favicon(path.join(process.cwd(), "public", "favicon.ico")));
-
-// Load movie data
-const malData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/mal.json"), "utf-8"));
-const malMovies = malData.movies;
-
-const telData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/tel.json"), "utf-8"));
-const telMovies = telData.movies;
-
-const tamData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/tam.json"), "utf-8"));
-const tamMovies = tamData.movies;
-
-const hinData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/hin.json"), "utf-8"));
-const hinMovies = hinData.movies;
-
-const kanData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/kann.json"), "utf-8"));
-const kanMovies = kanData.movies;
-
-const engData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/eng.json"), "utf-8"));
-const engMovies = engData.movies;
 
 // Sitemap route
 app.get("/sitemap.xml", (req, res) => {
