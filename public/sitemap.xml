@@ -4,59 +4,54 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://ihalokam.vercel.app/</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://ihalokam.vercel.app/mal</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ihalokam.vercel.app/tel</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ihalokam.vercel.app/tam</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ihalokam.vercel.app/kann</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ihalokam.vercel.app/hin</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ihalokam.vercel.app/eng</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ihalokam.vercel.app/terms-of-service</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ihalokam.vercel.app/privacy-policy</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://ihalokam.vercel.app/disclaimer</loc>
-  <lastmod>2025-05-10T04:58:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+  <url>
+    <loc>https://ihalokam.vercel.app/</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://ihalokam.vercel.app/mal</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ihalokam.vercel.app/tel</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ihalokam.vercel.app/tam</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ihalokam.vercel.app/kann</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ihalokam.vercel.app/hin</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ihalokam.vercel.app/eng</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ihalokam.vercel.app/terms-of-service</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ihalokam.vercel.app/privacy-policy</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ihalokam.vercel.app/disclaimer</loc>
+    <lastmod>2025-05-10T04:58:03+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>
