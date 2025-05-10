@@ -37,10 +37,6 @@ const kanMovies = kanData.movies;
 const engData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/eng.json"), "utf-8"));
 const engMovies = engData.movies;
 
-// Sitemap route
-app.get("/sitemap.xml", (req, res) => {
-  sitemap.generate(req, res);
-});
 
 // Routes
 app.get("/", (req, res) => {
