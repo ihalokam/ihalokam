@@ -33,13 +33,13 @@
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    cursor: url('golden-fire-cursor.png'), auto; /* Custom cursor */
+    
   }
 
   img:hover {
     transform: scale(1.1); /* Slightly enlarge the image */
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
-    cursor: url('golden-fire-cursor-hover.png'), auto; /* Change cursor on hover */
+    
   }
   .dotted-list {
     list-style-type: none;
