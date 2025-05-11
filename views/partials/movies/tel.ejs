@@ -22,7 +22,7 @@
   <div>
     <% telMovies.forEach(movie => { %>
       <div class="card" style="margin-bottom: 30px;">
-        <img src="<%= movie.poster %>" alt="<%= movie.title %> Telugu OTT movie poster" style="width:200px;"><br>
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> Telugu OTT movie poster" style="width:200px;" loading="lazy"><br>
         <h2><%= movie.title %> Telugu OTT Release</h2>
         <p><strong>OTT Platform:</strong> <%= movie.platform %></p>
         <p><strong>Release Date:</strong> <%= movie.releaseDate %></p>

@@ -24,7 +24,7 @@
   <div>
     <% hinMovies.forEach(movie => { %>
       <div class="card" style="margin-bottom: 30px;">
-        <img src="<%= movie.poster %>" alt="<%= movie.title %> Hindi OTT movie poster" style="width:200px;"><br>
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> Hindi OTT movie poster" style="width:200px;" loading="lazy"><br>
         <h2><%= movie.title %> Hindi OTT Release</h2>
         <p><strong>Now Streaming On:</strong> <%= movie.platform %></p>
         <p><strong>OTT Release Date:</strong> <%= movie.releaseDate %></p>

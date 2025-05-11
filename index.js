@@ -43,27 +43,27 @@ app.get("/", (req, res) => {
   res.render("index.ejs");
 });
 
-app.get("/mal", (req, res) => {
+app.get("/latest-malayalam-ott-releases", (req, res) => {
   res.render("partials/movies/mal.ejs", { malMovies });
 });
 
-app.get("/tel", (req, res) => {
+app.get("/latest-telugu-ott-releases", (req, res) => {
   res.render("partials/movies/tel.ejs", { telMovies });
 });
 
-app.get("/tam", (req, res) => {
+app.get("/latest-tamil-ott-releases", (req, res) => {
   res.render("partials/movies/tamil.ejs", { tamMovies });
 });
 
-app.get("/hin", (req, res) => {
+app.get("/latest-hindi-ott-releases", (req, res) => {
   res.render("partials/movies/hindi.ejs", { hinMovies });
 });
 
-app.get("/kann", (req, res) => {
+app.get("/latest-kannada-ott-releases", (req, res) => {
   res.render("partials/movies/kann.ejs", { kanMovies });
 });
 
-app.get("/eng", (req, res) => {
+app.get("/latest-english-ott-releases", (req, res) => {
   res.render("partials/movies/eng.ejs", { engMovies });
 });
 

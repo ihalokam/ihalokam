@@ -19,7 +19,7 @@
   <div>
     <% malMovies.forEach(movie => { %>
       <div class="card" style="margin-bottom: 30px;" itemscope itemtype="https://schema.org/Movie">
-        <img src="<%= movie.poster %>" alt="<%= movie.title %> Malayalam OTT release poster" style="width:200px;" itemprop="image"><br>
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> Malayalam OTT release poster" style="width:200px;" itemprop="image" loading="lazy"><br>
         <h2 itemprop="name"><%= movie.title %></h2>
         <p><strong>Release Date:</strong> <span itemprop="datePublished"><%= movie.releaseDate %></span></p>
         <div itemprop="actor" itemscope itemtype="https://schema.org/Person">

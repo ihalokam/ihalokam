@@ -22,7 +22,7 @@
   <div>
     <% tamMovies.forEach(movie => { %>
       <div class="card" style="margin-bottom: 30px;">
-        <img src="<%= movie.poster %>" alt="<%= movie.title %> Tamil OTT movie poster" style="width:200px;"><br>
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> Tamil OTT movie poster" style="width:200px;" loading="lazy"><br>
         <h2><%= movie.title %> (<%= movie.releaseDate %>) - Tamil OTT Release</h2>
         <p><strong>OTT Release Date:</strong> <%= movie.ottReleaseDate || movie.releaseDate %></p>
         <p><strong>Streaming On:</strong> <%= movie.platform %></p>
