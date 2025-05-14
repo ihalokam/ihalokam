@@ -1,62 +1,300 @@
 <%- include("partials/header.ejs") %>
 
-<div class="home-container" style="padding: 10px;">
-    <div style="display: flex; justify-content: space-between; gap: 10px;">
-        <div style="flex: 1; text-align: center; border: 1px solid black;">
-            <h2>IhaLokam</h2>
-            <div>
-                <p>1. Empuraan</p>
-                <img class="movie-poster" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dfaZipN3Aw5BK85nEvfr2FNg4EW.jpg" alt="Image 1A" style="width: 100%; "loading="lazy">
-            </div>
-            <div>
-                <p>2. Veera Dheera Sooran</p>
-                <img class="movie-poster" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6iiWsXJ31BVbypWwzvoPKx24NFQ.jpg" loading="lazy" alt="Image 1B" style="width: 100%;">
-               
-            </div>
-            <div>
-                <p>3. Officer on Duty</p>
-                <img class="movie-poster" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ucwirgaK4v9ylQyDkwoXJtDIlf7.jpg" loading="lazy" alt="Image 1C" style="width: 100%;">
-              
-            </div>
-        </div>
-        <div style="flex: 1; text-align: center; border: 1px solid black;">
-            <h2>Latest Anime</h2>
-            <div>
-            <p>1. Oshi no Ko Season 2</p>
-            <img class="movie-poster" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/okbW9NdKRNKgIUTVA8YZAUGwIUx.jpg" loading="lazy" alt="Image 2A" style="width: 100%;">
-            </div>
-            <div>
-            <p>2. Tower of God Season 2</p>
-            <img class="movie-poster" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8v8ANBJNUzvA8F6sM20DBt3zZ44.jpg" loading="lazy" alt="Image 2B" style="width: 100%;">
-            </div>
-            <div>
-            <p>3. Suicide Squad ISEKAI</p>
-            <img class="movie-poster" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/AbVwsBJnLoqJzPJn8dlGFSGfygy.jpg" loading="lazy" alt="Image 2C" style="width: 100%;">
-            </div>
-        </div>
-        <div style="flex: 1; text-align: center; border: 1px solid black;">
-            <h2>
-                Latest Webseries
-            </h2>
-            <div>
-                <p>1. The Boys Season 4</p>
-                <img class="movie-poster" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg" loading="lazy" alt="Image 3A" style="width: 100%;">
-               
-            </div>
-            <div>
-                <p>2. House of the Dragon Season 2 </p>
-                <img class="movie-poster" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oxmdHR5Ka28HAJuMmS2hk5K6QQY.jpg" loading="lazy" alt="Image 3B" style="width: 100%;">
-               
-            </div>
-            <div>
-                <p>3. Bridgerton Season 3 – Part 2</p>
-                <img class="movie-poster" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/v2TL9tcfsFsFY1wM8rhwiQwo01t.jpg" loading="lazy" alt="Image 3C" style="width: 100%;">
-               
-            </div>
-        </div>
-    </div>
-</div>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<hr>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IhaLokam | Latest OTT Releases 2025 - Indian & Foreign Movies, Anime, Web Series</title>
+        <meta name="description"
+            content="Explore the latest OTT releases in 2025 across Indian languages (Malayalam, Telugu, Tamil, Hindi, Kannada) and foreign content (English, Anime, Web Series). Get release dates, cast, crew, and streaming platforms like Netflix, Amazon Prime, Disney+ Hotstar. Updated weekly!">
+        <meta name="keywords"
+            content="latest ott releases, indian ott movies, malayalam ott releases, telugu ott releases, tamil ott releases, hindi ott releases, kannada ott releases, anime ott updates, web series ott, ott release this week 2025">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="IhaLokam">
+        <link rel="canonical" href="https://ihalokam.vercel.app/">
+        <meta property="og:title"
+            content="IhaLokam | Latest OTT Releases 2025 - Indian & Foreign Movies, Anime, Web Series">
+        <meta property="og:description"
+            content="Discover the latest OTT movies, anime, and web series in Indian and foreign languages, updated weekly with release dates and platforms.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ihalokam.vercel.app/">
+        <meta property="og:image" content="https://ihalokam.vercel.app/images/ott-home.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="IhaLokam | Latest OTT Releases 2025">
+        <meta name="twitter:description"
+            content="Stay updated with the latest OTT releases in Indian languages, English, Anime, and Web Series.">
+        <meta name="twitter:image" content="https://ihalokam.vercel.app/images/ott-home.jpg">
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/lang-styles.css">
+    </head>
 
-<%- include("partials/footer.ejs") %>
+    <body>
+        <main>
+            <section class="home-container fade-in">
+                <h2 class="section-heading">Featured OTT Releases</h2>
+                <div class="home-grid">
+                    <div class="category-section" aria-label="Latest Indian Movies">
+                        <h3>Latest Indian Movies</h3>
+                        <div class="card" itemscope itemtype="https://schema.org/Movie">
+                            <p><em>Empuraan</em></p>
+                            <figure>
+                                <img class="movie-poster"
+                                    src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dfaZipN3Aw5BK85nEvfr2FNg4EW.jpg"
+                                    alt="Empuraan Malayalam OTT movie poster" itemprop="image" loading="lazy">
+                            </figure>
+                            <meta itemprop="name" content="Empuraan">
+                            <meta itemprop="genre" content="Malayalam Cinema">
+                        </div>
+                        <div class="card" itemscope itemtype="https://schema.org/Movie">
+                            <p><em>Veera Dheera Sooran</em></p>
+                            <figure>
+                                <img class="movie-poster"
+                                    src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6iiWsXJ31BVbypWwzvoPKx24NFQ.jpg"
+                                    alt="Veera Dheera Sooran Tamil OTT movie poster" itemprop="image" loading="lazy">
+                            </figure>
+                            <meta itemprop="name" content="Veera Dheera Sooran">
+                            <meta itemprop="genre" content="Tamil Cinema">
+                        </div>
+                        <div class="card" itemscope itemtype="https://schema.org/Movie">
+                            <p><em>Officer on Duty</em></p>
+                            <figure>
+                                <img class="movie-poster"
+                                    src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ucwirgaK4v9ylQyDkwoXJtDIlf7.jpg"
+                                    alt="Officer on Duty Telugu OTT movie poster" itemprop="image" loading="lazy">
+                            </figure>
+                            <meta itemprop="name" content="Officer on Duty">
+                            <meta itemprop="genre" content="Telugu Cinema">
+                        </div>
+                    </div>
+                    <div class="category-section" aria-label="Latest Anime">
+                        <h3>Latest Anime</h3>
+                        <div class="card" itemscope itemtype="https://schema.org/TVSeries">
+                            <p><em>Oshi no Ko Season 2</em></p>
+                            <figure>
+                                <img class="movie-poster"
+                                    src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/okbW9NdKRNKgIUTVA8YZAUGwIUx.jpg"
+                                    alt="Oshi no Ko Season 2 Anime poster" itemprop="image" loading="lazy">
+                            </figure>
+                            <meta itemprop="name" content="Oshi no Ko Season 2">
+                            <meta itemprop="genre" content="Anime">
+                        </div>
+                        <div class="card" itemscope itemtype="https://schema.org/TVSeries">
+                            <p><em>Tower of God Season 2</em></p>
+                            <figure>
+                                <img class="movie-poster"
+                                    src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8v8ANBJNUzvA8F6sM20DBt3zZ44.jpg"
+                                    alt="Tower of God Season 2 Anime poster" itemprop="image" loading="lazy">
+                            </figure>
+                            <meta itemprop="name" content="Tower of God Season 2">
+                            <meta itemprop="genre" content="Anime">
+                        </div>
+                        <div class="card" itemscope itemtype="https://schema.org/TVSeries">
+                            <p><em>Suicide Squad ISEKAI</em></p>
+                            <figure>
+                                <img class="movie-poster"
+                                    src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/AbVwsBJnLoqJzPJn8dlGFSGfygy.jpg"
+                                    alt="Suicide Squad ISEKAI Anime poster" itemprop="image" loading="lazy">
+                            </figure>
+                            <meta itemprop="name" content="Suicide Squad ISEKAI">
+                            <meta itemprop="genre" content="Anime">
+                        </div>
+                    </div>
+                    <div class="category-section" aria-label="Latest Web Series">
+                        <h3>Latest Web Series</h3>
+                        <div class="card" itemscope itemtype="https://schema.org/TVSeries">
+                            <p><em>The Boys Season 4</em></p>
+                            <figure>
+                                <img class="movie-poster"
+                                    src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg"
+                                    alt="The Boys Season 4 Web Series poster" itemprop="image" loading="lazy">
+                            </figure>
+                            <meta itemprop="name" content="The Boys Season 4">
+                            <meta itemprop="genre" content="Web Series">
+                        </div>
+                        <div class="card" itemscope itemtype="https://schema.org/TVSeries">
+                            <p><em>House of the Dragon Season 2</em></p>
+                            <figure>
+                                <img class="movie-poster"
+                                    src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oxmdHR5Ka28HAJuMmS2hk5K6QQY.jpg"
+                                    alt="House of the Dragon Season 2 Web Series poster" itemprop="image"
+                                    loading="lazy">
+                            </figure>
+                            <meta itemprop="name" content="House of the Dragon Season 2">
+                            <meta itemprop="genre" content="Web Series">
+                        </div>
+                        <div class="card" itemscope itemtype="https://schema.org/TVSeries">
+                            <p><em>Bridgerton Season 3 – Part 2</em></p>
+                            <figure>
+                                <img class="movie-poster"
+                                    src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/v2TL9tcfsFsFY1wM8rhwiQwo01t.jpg"
+                                    alt="Bridgerton Season 3 Part 2 Web Series poster" itemprop="image" loading="lazy">
+                            </figure>
+                            <meta itemprop="name" content="Bridgerton Season 3 – Part 2">
+                            <meta itemprop="genre" content="Web Series">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <article>
+                
+
+                <section class="fade-in">
+                    <h2 class="section-heading">Explore the World of OTT with IhaLokam</h2>
+                    <p>IhaLokam is your one-stop destination for staying updated on the latest OTT releases in 2025,
+                        covering a diverse range of cinematic experiences from Indian regional films to international
+                        blockbusters, anime, and web series. Whether you’re a fan of Malayalam thrillers, Telugu action
+                        epics, Tamil dramas, Hindi-dubbed hits, Kannada cultural tales, Hollywood spectacles, Japanese
+                        anime, or gripping web series, our platform provides comprehensive details on release dates,
+                        cast, crew, plots, and streaming platforms like Netflix, Amazon Prime, Disney+ Hotstar, ZEE5,
+                        and more. With a focus on accessibility and user engagement, IhaLokam ensures you never miss a
+                        new release, offering curated lists, weekly updates, and insights into the evolving world of
+                        digital entertainment.</p>
+                    <p>The rise of OTT platforms has revolutionized how we consume entertainment, bringing global cinema
+                        to our fingertips. In 2025, the OTT landscape is more vibrant than ever, with Indian film
+                        industries like Mollywood, Tollywood, Kollywood, Bollywood, and Sandalwood producing content
+                        that rivals international standards. Simultaneously, foreign content, including English-language
+                        films, anime series, and web series, continues to captivate audiences worldwide. IhaLokam
+                        bridges these worlds, offering a seamless way to explore new releases, discover hidden gems, and
+                        stay informed about upcoming titles. Our mission is to celebrate the diversity of storytelling,
+                        from regional narratives rooted in Indian culture to universal tales told through anime and web
+                        series.</p>
+                </section>
+
+                <section class="fade-in">
+                    <h2>Indian Language OTT Releases: A Cinematic Tapestry</h2>
+                    <p>Indian cinema is a powerhouse of storytelling, and in 2025, OTT platforms are showcasing the best
+                        of regional films. <em>Empuraan</em>, a highly anticipated Malayalam sequel starring Mohanlal,
+                        is set to stream on Disney+ Hotstar, promising intense action and drama. In Telugu cinema,
+                        <em>Devara</em>, featuring Jr NTR, has taken Netflix by storm with its high-octane narrative.
+                        Tamil audiences are raving about <em>Vidaa Muyarchi</em>, an action thriller with Ajith Kumar,
+                        available on Amazon Prime. Hindi-dubbed hits like <em>Kantara</em>, a Kannada mythological epic,
+                        continue to dominate Amazon Prime, while Kannada’s own <em>777 Charlie</em> on Sun NXT delivers
+                        emotional depth. These releases highlight the richness of Indian cinema, blending tradition with
+                        modern storytelling techniques.</p>
+                    <p>Each Indian language brings a unique flavor to the OTT space. Malayalam films are known for their
+                        nuanced narratives, Telugu for their grandeur, Tamil for their emotional intensity, Hindi for
+                        their broad appeal, and Kannada for their cultural resonance. IhaLokam provides dedicated pages
+                        for each language, featuring curated lists of the latest releases, upcoming titles, and dubbed
+                        versions. Whether it’s a blockbuster like <em>Salaar</em> in Hindi or an indie gem like
+                        <em>Sapta Sagaradaache Ello</em> in Kannada, our platform ensures you have all the information
+                        you need to dive into India’s cinematic diversity.</p>
+                </section>
+
+                <section class="fade-in">
+                    <h2>Foreign Language OTT Releases: Hollywood and Beyond</h2>
+                    <p>Foreign language content, particularly English-language films, remains a cornerstone of OTT
+                        platforms in 2025. Hollywood blockbusters like <em>Avatar: The Way of Water</em> on Disney+ and
+                        <em>Oppenheimer</em> on Amazon Prime have redefined cinematic experiences with their scale and
+                        depth. IhaLokam covers these releases with detailed insights, including cast, crew, and
+                        streaming platforms. Beyond Hollywood, international co-productions like <em>Emilia Pérez</em>,
+                        a French-Spanish musical thriller, are gaining traction on Netflix, showcasing the global appeal
+                        of English-language content.</p>
+                    <p>Our dedicated English OTT page tracks everything from Marvel’s <em>Thunderbolts</em> to indie
+                        dramas like <em>The Outrun</em>, ensuring fans of foreign cinema have access to the latest
+                        updates. With schema.org markup and SEO-optimized content, IhaLokam makes it easy for search
+                        engines to index our pages, helping users find the newest English-language releases with ease.
+                        Whether you’re into action, romance, or horror, our platform curates the best of foreign OTT
+                        content for a global audience.</p>
+                </section>
+
+                <section class="fade-in">
+                    <h2>Anime OTT Releases: A Growing Phenomenon</h2>
+                    <p>Anime has exploded in popularity, and 2025 is a landmark year for anime OTT releases. <em>Oshi no
+                            Ko Season 2</em>, streaming on Crunchyroll, captivates with its blend of drama and music,
+                        while <em>Tower of God Season 2</em> on Netflix continues its epic fantasy journey. <em>Suicide
+                            Squad ISEKAI</em>, available on Disney+ Hotstar, brings a fresh twist to the superhero genre
+                        with its vibrant animation. IhaLokam’s anime section provides detailed summaries, release dates,
+                        and platform information, catering to both seasoned anime fans and newcomers.</p>
+                    <p>Anime’s unique storytelling, combining intricate plots with stunning visuals, has made it a
+                        global phenomenon. Platforms like Crunchyroll, Netflix, and Disney+ Hotstar are investing
+                        heavily in anime, bringing exclusive titles to Indian audiences. IhaLokam ensures you stay ahead
+                        of the curve with updates on new seasons, movies, and dubbed versions, making it easy to explore
+                        the dynamic world of anime in 2025.</p>
+                </section>
+
+                <section class="fade-in">
+                    <h2>Web Series OTT Releases: Binge-Worthy Entertainment</h2>
+                    <p>Web series continue to dominate OTT platforms, offering binge-worthy content for every taste.
+                        <em>The Boys Season 4</em> on Amazon Prime delivers satirical superhero action, while <em>House
+                            of the Dragon Season 2</em> on HBO Max captivates with its epic fantasy. <em>Bridgerton
+                            Season 3 – Part 2</em> on Netflix enchants with its romantic drama. IhaLokam’s web series
+                        section provides comprehensive details on new seasons, cast changes, and streaming platforms,
+                        ensuring you never miss an episode.</p>
+                    <p>Web series have redefined storytelling, offering long-form narratives that keep viewers hooked.
+                        In 2025, platforms are doubling down on original content, from gritty thrillers to heartwarming
+                        comedies. IhaLokam’s curated lists and weekly updates make it easy to find the latest web
+                        series, whether you’re into international hits or Indian originals like <em>Mirzapur</em> on
+                        Amazon Prime. Our SEO-friendly approach ensures high visibility for web series content, driving
+                        traffic to our platform.</p>
+                </section>
+
+                <section class="fade-in">
+                    <h2>Stay Updated with IhaLokam</h2>
+                    <p>Keeping track of the latest OTT releases in 2025 is effortless with IhaLokam. Our platform offers
+                        weekly updates on new movies, anime, and web series, with dedicated pages for each language and
+                        genre. Follow X posts from @IhaLokamUpdates for real-time announcements, or subscribe to our
+                        newsletter for curated recommendations. From <em>Veera Dheera Sooran</em> in Tamil to
+                        <em>Officer on Duty</em> in Telugu, we cover every major release, ensuring you’re always in the
+                        know.</p>
+                    <p>IhaLokam goes beyond simple listings, providing in-depth insights into the stories, talent, and
+                        platforms behind each release. Our language-specific pages, such as those for Malayalam, Telugu,
+                        Tamil, Hindi, and Kannada, offer detailed breakdowns of the latest films, including
+                        blockbusters, indie projects, and dubbed versions. For international fans, our English, Anime,
+                        and Web Series sections deliver updates on global hits, from Hollywood epics to Japanese anime
+                        and binge-worthy series. By leveraging schema.org markup, we ensure our content is easily
+                        discoverable by search engines, helping you find exactly what you’re looking for with minimal
+                        effort.</p>
+                    <p>Our commitment to accessibility ensures that IhaLokam is user-friendly across devices, with a
+                        responsive design that adapts to mobile, tablet, and desktop screens. The visually appealing
+                        interface, powered by modern CSS3 effects like fade-in animations, 3D card tilts, and image
+                        zooms, enhances the browsing experience while maintaining fast load times. We also prioritize
+                        SEO best practices, using targeted keywords, alt text for images, and structured data to boost
+                        visibility on Google and other search engines. This approach drives organic traffic to our
+                        platform, making IhaLokam a trusted resource for OTT enthusiasts worldwide.</p>
+                    <p>Join IhaLokam today and immerse yourself in the world of OTT entertainment. Whether you’re
+                        planning a movie night, catching up on the latest anime, or binging a new web series, our
+                        platform has you covered. Explore our curated lists, dive into detailed movie profiles, and stay
+                        informed about upcoming releases. With weekly updates and a community-driven approach, IhaLokam
+                        connects cinema lovers across India and beyond, celebrating the power of storytelling in all its
+                        forms. Bookmark our site, follow us on X, and become part of the IhaLokam community as we
+                        navigate the exciting OTT landscape of 2025 together.</p>
+                </section>
+
+
+
+                <section class="related-searches fade-in">
+                    <h3>Popular OTT Searches</h3>
+                    <ol class="dotted-list">
+                        <li>Latest OTT releases 2025</li>
+                        <li>Indian OTT movies this week</li>
+                        <li>New anime on OTT</li>
+                        <li>Latest web series 2025</li>
+                        <li>Where to watch new OTT releases</li>
+                    </ol>
+                </section>
+
+                <section class="fade-in">
+                    <h2>Why Choose IhaLokam?</h2>
+                    <p>IhaLokam stands out as a premier OTT guide by combining comprehensive coverage with a
+                        user-centric design. Our platform is built to cater to diverse audiences, from fans of Indian
+                        regional cinema to enthusiasts of global anime and web series. By offering detailed insights,
+                        weekly updates, and a visually engaging interface, we ensure that every visit to IhaLokam is an
+                        opportunity to discover something new. Our SEO-optimized content, backed by schema.org markup
+                        and targeted keywords, makes it easy for users to find the latest OTT releases through search
+                        engines, while our social media presence on X (@IhaLokamUpdates) keeps you connected in
+                        real-time.</p>
+                    <p>In 2025, the world of OTT is more dynamic than ever, and IhaLokam is here to guide you through
+                        it. Whether you’re exploring the latest Indian blockbusters, catching up on anime sensations, or
+                        diving into web series marathons, our platform offers the tools and information you need to make
+                        informed viewing choices. Join our community, bookmark our site, and let IhaLokam be your
+                        trusted companion in the ever-evolving landscape of digital entertainment.</p>
+                </section>
+            </article>
+        </main>
+        <%- include("partials/footer.ejs") %>
+    </body>
+
+    </html>

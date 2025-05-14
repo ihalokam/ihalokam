@@ -4,41 +4,117 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Latest Tamil OTT releases</title>
-  <meta name="description" content="Discover the latest Tamil OTT releases this week including Aavesham, Hotspot and more. Get release dates, OTT platforms, cast details for new Tamil movies streaming online.">
-  <meta name="keywords" content="tamil ott release this week, aavesham tamil ott, hotspot movie tamil ott, new tamil ott releases, tamil ott release movies, latest tamil ott releases, tamil ott movies, tamil ott release 2025, tamil ott platform">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latest Tamil OTT Releases 2025 | IhaLokam</title>
+  <meta name="description" content="Discover the latest Tamil OTT releases in 2025, including Aavesham, Hotspot, and more. Get release dates, cast, crew, and streaming platforms like Netflix, Disney+ Hotstar. Updated weekly!">
+  <meta name="keywords" content="latest tamil ott releases, tamil ott movies, aavesham tamil ott, hotspot tamil ott, new tamil ott releases, tamil ott release this week, tamil ott release 2025, tamil ott platform">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://yourwebsite.com/tamil-ott-releases" />
+  <meta name="author" content="IhaLokam">
+  <link rel="canonical" href="https://ihalokam.vercel.app/latest-tamil-ott-releases">
+  <meta property="og:title" content="Latest Tamil OTT Releases 2025 | IhaLokam">
+  <meta property="og:description" content="Explore new Tamil OTT movies, including hits like Aavesham, Hotspot, and dubbed releases, updated weekly.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ihalokam.vercel.app/latest-tamil-ott-releases">
+  <meta property="og:image" content="https://ihalokam.vercel.app/images/tamil-ott.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Latest Tamil OTT Releases 2025 | IhaLokam">
+  <meta name="twitter:description" content="Discover the latest Tamil OTT movies with release dates and platforms.">
+  <meta name="twitter:image" content="https://ihalokam.vercel.app/images/tamil-ott.jpg">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/lang-styles.css">
 </head>
 <body>
-  <h1 class="card">Latest Tamil OTT Releases This Week (2025)</h1>
-  
-  <div class="card" style="margin-bottom:20px;">
-    <h2>Latest Tamil OTT releases</h2>
-    <p>Stay updated with all the new Tamil OTT releases including theatrical movies now available on digital platforms. Check release dates for upcoming Tamil films on OTT.</p>
-  </div>
-  
-  <div>
-    <% tamMovies.forEach(movie => { %>
-      <div class="card" style="margin-bottom: 30px;">
-        <img src="<%= movie.poster %>" alt="<%= movie.title %> Tamil OTT movie poster" style="width:200px;" loading="lazy"><br>
-        <h2><%= movie.title %> (<%= movie.releaseDate %>) - Tamil OTT Release</h2>
-        <p><strong>OTT Release Date:</strong> <%= movie.ottReleaseDate || movie.releaseDate %></p>
-        <p><strong>Streaming On:</strong> <%= movie.platform %></p>
-        <p><strong>Cast:</strong> <%= movie.cast %></p>
-        <p><strong>Director:</strong> <%= movie.crew %></p>
-        <p><strong>Plot Summary:</strong> <%= movie.plot %></p>
-        <p><strong>Watch <%= movie.title %> on <%= movie.platform %> now</strong></p>
-      </div>
-    <% }); %>
-  </div>
-  
-  <div class="card">
-    <h2>Upcoming Tamil OTT Releases</h2>
-    <p>Coming soon to OTT platforms: Kalki Tamil OTT, Deadpool and Wolverine Tamil OTT version, and more big releases.</p>
-  </div>
+  <main>
+    <article>
+     
+
+      <section class="fade-in">
+        <h2 class="section-heading">Latest Tamil Movies Streaming on OTT Platforms</h2>
+        <div class="movie-grid">
+          <% tamMovies.forEach(movie => { %>
+            <div class="card" itemscope itemtype="https://schema.org/Movie" aria-label="Details for <%= movie.title %>">
+              <figure>
+                <img src="<%= movie.poster %>" alt="<%= movie.title %> Tamil OTT movie poster" itemprop="image" loading="lazy">
+              </figure>
+              <h3 itemprop="name"><%= movie.title %></h3>
+              <p><strong>OTT Release Date:</strong> <span itemprop="datePublished"><%= movie.ottReleaseDate || movie.releaseDate %></span></p>
+              <p><strong>Streaming On:</strong> <span itemprop="provider"><%= movie.platform %></span></p>
+              <div itemprop="actor" itemscope itemtype="https://schema.org/Person">
+                <p><strong>Cast:</strong> <span itemprop="name"><%= movie.cast %></span></p>
+              </div>
+              <div itemprop="director" itemscope itemtype="https://schema.org/Person">
+                <p><strong>Director:</strong> <span itemprop="name"><%= movie.crew %></span></p>
+              </div>
+              <p itemprop="description"><strong>Plot Summary:</strong> <%= movie.plot %></p>
+              <p><a href="#" aria-label="Watch <%= movie.title %> on <%= movie.platform %>">Watch on <%= movie.platform %></a></p>
+              <meta itemprop="genre" content="Tamil Cinema">
+              <meta itemprop="url" content="https://ihalokam.vercel.app/movies/<%= movie.title.replace(/\s+/g, '-') %>">
+            </div>
+          <% }); %>
+        </div>
+      </section>
+
+      <section class="fade-in">
+        <p>The Tamil film industry, Kollywood, continues to captivate audiences in 2025 with its latest OTT releases, delivering a vibrant mix of blockbusters, dubbed films, and innovative storytelling. Streaming on platforms like Netflix, Disney+ Hotstar, Amazon Prime, and ZEE5, these Tamil OTT movies cater to diverse tastes. From action-packed thrillers to emotional dramas, here are six key aspects of the latest Tamil OTT releases, highlighting why they’re a must-watch.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>1. Blockbuster Hits Leading Tamil OTT Releases</h2>
+        <p>The latest Tamil OTT releases feature theatrical hits now streaming digitally. <em>Indian 2</em>, Shankar’s action-packed sequel starring Kamal Haasan, is available on Netflix, thrilling fans with its grand narrative. Another standout, <em>Aavesham</em>, a Malayalam action-comedy dubbed in Tamil featuring Fahadh Faasil, is streaming on Disney+ Hotstar, showcasing Kollywood’s love for dynamic storytelling.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>2. Upcoming Tamil OTT Releases to Watch in 2025</h2>
+        <p>Anticipation is high for upcoming Tamil OTT movies in 2025. <em>Vidaa Muyarchi</em>, an action thriller starring Ajith Kumar, is set to premiere on Amazon Prime in March 2025. Another awaited title, <em>Thug Life</em>, directed by Mani Ratnam and featuring Kamal Haasan, promises gripping drama on Netflix later this year. These releases keep Tamil OTT films in the spotlight.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>3. Tamil Dubbed Movies Adding Variety</h2>
+        <p>Tamil dubbed movies enhance the appeal of the latest Tamil OTT releases. <em>Hotspot</em>, a socially relevant drama originally in Tamil, is streaming on Aha, while <em>Deadpool & Wolverine</em>, a Hollywood blockbuster dubbed in Tamil, is available on Disney+ Hotstar since February 2025. These dubbed films enrich the Tamil OTT catalog with diverse narratives.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>4. Genre Diversity in Latest Tamil OTT Movies</h2>
+        <p>The latest Tamil OTT releases in 2025 offer a wide range of genres. Romantic dramas like <em>Amaran</em>, streaming on Netflix with Sivakarthikeyan, deliver emotional depth, while action thrillers like <em>Rathnam</em> on ZEE5, starring Vishal, keep viewers engaged. Comedies such as <em>Meiyazhagan</em> on Amazon Prime add humor, ensuring Tamil OTT movies appeal to all audiences.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>5. Showcasing New and Veteran Talent</h2>
+        <p>The latest Tamil OTT releases highlight both emerging and established talent. New directors like Arun Matheswaran, with <em>Captain Miller</em> on Amazon Prime, push creative boundaries, while stars like Vijay shine in <em>GOAT</em> on Netflix. Young actors like Dushara Vijayan in <em>Raayan</em> on Disney+ bring fresh energy, making these Tamil OTT movies a talent showcase.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>6. How to Stay Updated on Tamil OTT Releases This Week</h2>
+        <p>Keeping track of the latest Tamil OTT releases this week is easy. Platforms like Netflix and ZEE5 announce new titles, such as <em>Kanguva</em>, a historical action film streaming on Disney+ Hotstar from May 14, 2025. Following X posts from @TamilOTTUpdates or subscribing to OTT newsletters ensures you catch films like <em>Vettaiyan</em> on Amazon Prime. The latest Tamil OTT movies are just a click away.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>Upcoming Tamil OTT Releases</h2>
+        <ul class="dotted-list">
+          <li><em>Kalki 2898 AD</em> Tamil OTT Release: Coming to Netflix, a sci-fi epic dubbed in Tamil, starring Prabhas and Deepika Padukone.</li>
+          <li><em>Deadpool & Wolverine</em> Tamil Version OTT Release: Streaming on Disney+ Hotstar, a Hollywood action-comedy dubbed in Tamil.</li>
+          <li><em>Vidaa Muyarchi</em> Tamil OTT Release: Set for Amazon Prime in March 2025, an action thriller with Ajith Kumar.</li>
+          <li><em>Thug Life</em> Tamil OTT Release: Expected on Netflix, a Mani Ratnam directorial featuring Kamal Haasan.</li>
+        </ul>
+        <p>Bookmark this page for weekly updates on Tamil movies and dubbed releases coming to OTT platforms.</p>
+      </section>
+
+      <section class="related-searches fade-in">
+        <h3>Popular Tamil OTT Searches</h3>
+        <ol class="dotted-list">
+          <li>New Tamil OTT releases 2025</li>
+          <li>Tamil OTT release this week</li>
+          <li>Latest Tamil movies on OTT</li>
+          <li>Upcoming Tamil OTT movies</li>
+          <li>Where to watch new Tamil films</li>
+        </ol>
+      </section>
+
+      <section class="fade-in">
+        <p>In conclusion, the latest Tamil OTT releases in 2025, from blockbusters like <em>Indian 2</em> to dubbed hits like <em>Aavesham</em>, offer a cinematic extravaganza. With global access on OTT platforms, there’s no better time to dive into the vibrant world of Kollywood’s latest Tamil OTT movies.</p>
+      </section>
+    </article>
+  </main>
+<%- include("../footer.ejs") %>
 </body>
 </html>
-
-<%- include("../footer.ejs") %>

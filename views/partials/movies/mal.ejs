@@ -5,46 +5,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Latest Malayalam OTT releases</title>
-  <meta name="description" content="Discover the latest Malayalam OTT releases 2025 with our weekly updated list. Find new Malayalam movies on OTT platforms with release dates, cast, crew, and where to watch.">
-  <meta name="keywords" content="new malayalam ott releases, malayalam ott release, latest malayalam ott releases, malayalam ott movies, new malayalam ott movies, malayalam ott release this week, upcoming malayalam ott releases">
+  <title>Latest Malayalam OTT Releases 2025 | IhaLokam</title>
+  <meta name="description" content="Discover the latest Malayalam OTT releases in 2025, featuring new movies, release dates, cast, crew, and platforms like Netflix, Disney+ Hotstar, and more. Updated weekly!">
+  <meta name="keywords" content="latest malayalam ott releases, malayalam ott movies, new malayalam ott release, malayalam ott release this week, upcoming malayalam ott movies, malayalam dubbed movies">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://yourwebsite.com/malayalam-ott-releases" />
+  <meta name="author" content="IhaLokam">
+  <link rel="canonical" href="https://ihalokam.vercel.app/latest-malayalam-ott-releases">
+  <meta property="og:title" content="Latest Malayalam OTT Releases 2025 | IhaLokam">
+  <meta property="og:description" content="Explore new Malayalam OTT movies, including popular hits, upcoming releases, and dubbed films, updated weekly.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ihalokam.vercel.app/latest-malayalam-ott-releases">
+  <meta property="og:image" content="https://ihalokam.vercel.app/images/malayalam-ott.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Latest Malayalam OTT Releases 2025 | IhaLokam">
+  <meta name="twitter:description" content="Discover the latest Malayalam OTT movies with release dates and platforms.">
+  <meta name="twitter:image" content="https://ihalokam.vercel.app/images/malayalam-ott.jpg">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/lang-styles.css">
 </head>
 <body>
-  <h1 class="card">New Malayalam OTT Releases This Week - 2025 Latest Updates</h1>
-  <div class="ott-update-info">
-    <p style="margin-left: 180px;">Last updated: <%= new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }) %></p>
-  </div>
-  <div>
-    <% malMovies.forEach(movie => { %>
-      <div class="card" style="margin-bottom: 30px;" itemscope itemtype="https://schema.org/Movie">
-        <img src="<%= movie.poster %>" alt="<%= movie.title %> Malayalam OTT release poster" style="width:200px;" itemprop="image" loading="lazy"><br>
-        <h2 itemprop="name"><%= movie.title %></h2>
-        <p><strong>Release Date:</strong> <span itemprop="datePublished"><%= movie.releaseDate %></span></p>
-        <div itemprop="actor" itemscope itemtype="https://schema.org/Person">
-          <p><strong>Cast:</strong> <span itemprop="name"><%= movie.cast %></span></p>
+  <main>
+    <article>
+      <section class="fade-in">
+        <h2 class="section-heading">Latest Malayalam OTT Movies</h2>
+        <div class="movie-grid">
+          <% malMovies.forEach(movie => { %>
+            <div class="card" itemscope itemtype="https://schema.org/Movie" aria-label="Details for <%= movie.title %>">
+              <figure>
+                <img src="<%= movie.poster %>" alt="<%= movie.title %> Malayalam OTT release poster" itemprop="image" loading="lazy">
+              </figure>
+              <h3 itemprop="name"><%= movie.title %></h3>
+              <p><strong>Release Date:</strong> <span itemprop="datePublished"><%= movie.releaseDate %></span></p>
+              <div itemprop="actor" itemscope itemtype="https://schema.org/Person">
+                <p><strong>Cast:</strong> <span itemprop="name"><%= movie.cast %></span></p>
+              </div>
+              <div itemprop="director" itemscope itemtype="https://schema.org/Person">
+                <p><strong>Crew:</strong> <span itemprop="name"><%= movie.crew %></span></p>
+              </div>
+              <p itemprop="description"><strong>Plot:</strong> <%= movie.plot %></p>
+              <p><strong>OTT Platform:</strong> <span itemprop="provider"><%= movie.platform %></span></p>
+              <meta itemprop="genre" content="Malayalam Cinema">
+              <meta itemprop="url" content="https://ihalokam.vercel.app/movies/<%= movie.title.replace(/\s+/g, '-') %>">
+            </div>
+          <% }); %>
         </div>
-        <div itemprop="director" itemscope itemtype="https://schema.org/Person">
-          <p><strong>Crew:</strong> <span itemprop="name"><%= movie.crew %></span></p>
-        </div>
-        <p itemprop="description"><strong>Plot:</strong> <%= movie.plot %></p>
-        <p><strong>OTT Platform:</strong> <span itemprop="provider"><%= movie.platform %></span></p>
-        <meta itemprop="genre" content="Malayalam Cinema"/>
-      </div>
-    <% }); %>
-  </div>
-  <div class="related-searches">
-    <h3>Popular Malayalam OTT Searches</h3>
-    <ol class="dotted-list">
-      <li>New Malayalam OTT releases 2025</li><br>
-      <li>Malayalam OTT release this week</li><br>
-      <li>Latest Malayalam movies on OTT</li><br>
-      <li>Upcoming Malayalam OTT movies</li><br>
-      <li>Where to watch new Malayalam films</li><br>
-    </ol>
-  </div>
+      </section>
+
+      <section class="fade-in">
+        <p>The Malayalam film industry continues to shine in 2025 with its latest OTT releases, offering a rich blend of popular hits, anticipated upcoming films, and captivating dubbed movies. Available on platforms like Netflix, Amazon Prime, Disney+ Hotstar, and Manorama Max, the latest Malayalam OTT movies cater to diverse tastes. Here are six key aspects of these releases, highlighting why they’re a must-watch.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>1. Popular Hits Dominating Latest Malayalam OTT Releases</h2>
+        <p>The latest Malayalam OTT releases feature blockbuster hits that have enthralled audiences. <em>L2: Empuraan</em>, the sequel to <em>Lucifer</em>, starring Mohanlal, is a standout action thriller now streaming on Disney+ Hotstar, grossing over ₹260 crore worldwide. Another gem, <em>Marco</em>, an action-packed film with Unni Mukundan, has transitioned from theaters to SonyLIV, captivating fans with its gritty narrative. These latest Malayalam OTT movies showcase Mollywood’s knack for gripping storytelling.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>2. Exciting Upcoming Malayalam OTT Releases in 2025</h2>
+        <p>Anticipation is high for upcoming Malayalam OTT release movies slated for 2025. <em>Oshana</em>, a suspenseful tale of folklore and mystery, is set to debut on Manorama Max in January 2025. Another awaited title, <em>Kaaliyan</em>, a period drama featuring Prithviraj Sukumaran, promises a historical epic on OTT platforms later this year. These upcoming releases ensure the latest Malayalam OTT films remain a hot topic.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>3. Malayalam Dubbed Movies Adding Variety</h2>
+        <p>Malayalam dubbed movies are expanding the appeal of the latest Malayalam OTT releases. <em>Meiyazhagan</em>, a Tamil film dubbed in Malayalam, starring Karthi and Arvind Swamy, is a heartwarming drama available on Netflix since October 2024. Similarly, <em>Brinda</em>, a Telugu crime thriller dubbed in Malayalam, featuring Trisha, has gained traction on JioHotstar. These dubbed films enrich the latest Malayalam OTT movies catalog, offering diverse storytelling to viewers.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>4. Genre Diversity in Latest Malayalam OTT Movies</h2>
+        <p>The latest Malayalam OTT releases in 2025 offer a vibrant mix of genres. Romantic comedies like <em>Painkili</em>, streaming on Manorama Max, deliver laughs with Sajin Gopu and Anaswara Rajan, while thrillers like <em>Officer on Duty</em> on Netflix, starring Kunchacko Boban, keep viewers on edge. Dramas such as <em>Thudarum</em> on JioHotstar explore emotional depth, ensuring the latest Malayalam OTT films appeal to all.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>5. Spotlight on New and Veteran Talent</h2>
+        <p>The latest Malayalam OTT release movies highlight both emerging and veteran talent. New directors like Sreeraj Sreenivasan, with <em>Pravinkoodu Shappu</em> on SonyLIV, blend dark comedy and suspense, while stars like Mohanlal and Mammootty shine in films like <em>Barroz</em> on Disney+ Hotstar. Young actors like Tovino Thomas in <em>Identity</em> add fresh energy, making these latest Malayalam OTT releases a talent showcase.</p>
+      </section>
+
+      <section class="fade-in">
+        <h2>6. How to Catch the Latest Malayalam OTT Releases This Week</h2>
+        <p>Staying updated on the latest Malayalam OTT releases this week is simple. Platforms like Netflix and SonyLIV announce new titles, such as <em>Maranamass</em>, a dark comedy streaming on SonyLIV from May 14, 2025. Following X posts from @OTT_Trackers or subscribing to OTT newsletters ensures you catch films like <em>Good Bad Ugly</em> on Netflix. The latest Malayalam OTT movies are just a click away.</p>
+      </section>
+
+      <section class="related-searches fade-in">
+        <h3>Popular Malayalam OTT Searches</h3>
+        <ol class="dotted-list">
+          <li>New Malayalam OTT releases 2025</li>
+          <li>Malayalam OTT release this week</li>
+          <li>Latest Malayalam movies on OTT</li>
+          <li>Upcoming Malayalam OTT movies</li>
+          <li>Where to watch new Malayalam films</li>
+        </ol>
+      </section>
+
+      <section class="fade-in">
+        <p>In conclusion, the latest Malayalam OTT releases in 2025, from popular hits like <em>L2: Empuraan</em> to upcoming epics and dubbed dramas, offer a cinematic feast. With global access on OTT platforms, there’s no better time to explore the latest Malayalam OTT movies and dive into Mollywood’s vibrant world.</p>
+      </section>
+    </article>
+  </main>
+<%- include("../footer.ejs") %>
 </body>
 </html>
-
-<%- include("../footer.ejs") %>
