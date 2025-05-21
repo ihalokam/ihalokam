@@ -1,94 +1,95 @@
 {
-    "movies": [
+  "movies": [
+    {
+      "title": "Maranamass",
+      "HSV": "Maranamass - A Quirky Malayalam Action Comedy",
+      "releaseDate": "10 April 2025",
+      "cast": "Basil Joseph, Rajesh Madhavan, Siju Sunny, Suresh Krishna, Anishma Anilkumar",
+      "crew": "Sivaprasad KV (Director), Tovino Thomas (Producer), Rapheal Pozholiparambil (Producer), Tingston Thomas (Producer), Siju Sunny (Writer, Screenplay, Dialogue), Hesham Abdul Wahab (Music), Abinandhan Ramanujam (Cinematography), Chaman Chakko (Editing)",
+      "plot": "Maranamass is a Malayalam action comedy that brings together unrelated characters in a whirlwind of quirky events and dark humor. Centered around a serial killer conflict, the story unfolds with hilarious mishaps and thrilling twists, delivering an engaging narrative despite a slow start. Standout performances by Rajesh Madhavan and Suresh Krishna add to the film's charm.",
+      "platform": "Sony LIV ",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/erU6DGyYGEFrnE4reiGX3pytU2e.jpg"
+    },
       {
-        "title": "L2: Empuraan",
-        "releaseDate": "24 April 2024",
-        "cast": "Mohanlal, Prithviraj Sukumaran, Manju Warrier, Tovino Thomas",
-        "crew": "Prithviraj Sukumaran, Antony Perumbavoor, Gokulam Gopalan, Murali Gopy, Deepak Dev",
-        "plot": "L2: Empuraan is a sequel to Lucifer and continues the story of Khureshi-Ab'raam, the mysterious alter ego of Stephen Nedumpally. The plot delves into his rise through international crime and politics, revealing the origins of his power and influence. As he expands his empire, he faces enemies from both his past and present, leading to intense confrontations. The film intertwines political intrigue, action, and personal vendettas, setting the stage for a larger war between global forces and Khureshi's growing dominion.",
-        "platform": "JioHotstar",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dfaZipN3Aw5BK85nEvfr2FNg4EW.jpg"
-      },
-      {
-        "title": "Bromance",
-        "releaseDate": "14 February 2025",
-        "cast": "Mathew Thomas, Arjun Ashokan, Mahima Nambiar, Sangeeth Prathap, Kalabhavan Shajohn",
-        "crew": "Arun D. Jose (Director), Raveesh Nath, Thomas P. Sebastian (Writers), Govind Vasantha (Music)",
-        "plot": "Bromance is an adventure comedy that follows Binto as he teams up with his brother Shinto's friends to find his missing sibling. Their journey is filled with twists, revelations, and humor, offering a fresh take on brotherhood and youthful friendship amidst unexpected chaos.",
-        "platform": "SonyLIV (from 1 May 2025)",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2xzgtY0d7xbqeTWdF3tDgd5WeVM.jpg"
-      },
-      {
-        "title": "Officer on Duty",
-        "releaseDate": "20 February 2025",
-        "cast": "Kunchacko Boban, Priyamani, Jagadish, Vishak Nair",
-        "crew": "Jithu Ashraf (Director), Shahi Kabir (Writer), Jakes Bejoy (Music)",
-        "plot": "Officer on Duty is a gripping action thriller that follows CI Harishankar, a disciplined yet aggressive officer, as he investigates a case that unexpectedly ties into his personal trauma. As he uncovers a deeper nexus involving counterfeit gold and a powerful drug syndicate, Harishankar faces a test of justice, morality, and redemption.",
-        "platform": "Netflix (from 20 March 2025)",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ucwirgaK4v9ylQyDkwoXJtDIlf7.jpg"
-      },
-      {
-        "title": "Ouseppinte Osiyathu",
-        "releaseDate": "2 May 2025",
-        "cast": "Vijayaraghavan, Dileesh Pothan, Kalabhavan Shajohn, Lenaa, Kani Kusruti, Hemanth Menon",
-        "crew": "Sarath Chandran RJ (Director), Fazal Hassan (Writer), Sumesh Parameswar (Music), Arvind Kannabiran (Cinematography)",
-        "plot": "Ouseppinte Osiyathu is a poignant Malayalam drama set against the picturesque hills of Idukki. The film delves into the complexities of familial relationships, focusing on Ousepp, a resilient planter, and his three sons—Michael, George, and Roy. As ambition and personal desires clash, the family grapples with deep-seated resentments and the quest for redemption. The narrative explores themes of love, regret, and the enduring bonds of family.",
-        "platform": "Prime Video",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7yI1qSum03V9sFNHamWJEOhLZeA.jpg"
-      },
-      {
-        "title": "Daveed",
-        "releaseDate": "18 April 2025",
-        "cast": "Antony Varghese, Lijomol Jose, Vijayaraghavan, Saiju Kurup, Aju Varghese, Mo Ismail",
-        "crew": "Govind Vishnu (Director), Deepu Rajeevan & Govind Vishnu (Writers), Justin Varghese (Music)",
-        "plot": "Daveed is a Malayalam sports drama that follows Ashiq Abu, a middle-aged bouncer who faces a life-changing rivalry with Turkish boxer Sainul Akhmedov. The film explores themes of redemption, perseverance, and the underdog's journey.",
-        "platform": "ZEE5",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5looJkc3Siu7HqR5farCebWRxQo.jpg"
-      },
-      {
-        "title": "Dassettante Cycle",
-        "releaseDate": "14 March 2025",
-        "cast": "Hareesh Peradi, Anjana Appukkuttan",
-        "crew": "Akhil Kavungal (Director & Writer), Rahul C. Vimala (Cinematography), Jomon Cyriac (Editor)",
-        "plot": "Dassettante Cycle is a Malayalam comedy-drama that follows Dasan, a discontented security guard whose life takes unexpected turns as his family's journey unfolds. A series of intriguing incidents lead to the unraveling of long-held secrets, testing their bonds and resilience. The film delves into family dynamics, emotions, and humor, offering a heartfelt and engaging cinematic experience.",
-        "platform": "Prime Video",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cZtFexzmRX9hvMwPDZCSwRPSvjS.jpg"
-      },
-      {
-        "title": "Bad Boyz",
-        "releaseDate": "April 2025",
-        "cast": "Rahman, Dhyan Sreenivasan, Bibin George, Anson Paul, Senthil Krishna, Sheelu Abraham",
-        "crew": "Omar Lulu (Director), Sarang Jayaprakash (Writer), William Francis (Music)",
-        "plot": "Bad Boyz is a Malayalam action comedy that follows Antappan, a directionless schoolboy who finds purpose after meeting Mary, an achiever with a surprising fascination with local goons. To win her over, he dives into the dangerous world of crime and becomes a full-time goon himself. The story unfolds with suspense and humor, revealing the thrilling consequences of Antappan's decision.",
-        "platform": "Amazon Prime Video and Manorama Max",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bwVv1ZhaI4yiE1FLd7ZGD7pdzcd.jpg"
-      },
-      {
-        "title": "Machante Malakha",
-        "releaseDate": "27 February 2025",
-        "cast": "Soubin Shahir, Namitha Pramod, Dhyan Sreenivasan, Dileesh Pothan",
-        "crew": "Boban Samuel (Director), Ajeesh P. Thomas (Writer), Ouseppachan (Music), Vivek Menon (Cinematography), Ratheesh Raj (Editing)",
-        "plot": "Machante Malakha is a Malayalam comedy-drama that explores the dynamics of a modern marriage. The film follows Sajeevan, a bus conductor, and his wife Bijimol, a medical shop employee, as they navigate the challenges of their relationship. Their journey delves into themes of love, sacrifice, and the complexities of marital life.",
-        "platform": "Amazon Prime Video (from 11 April 2025)",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hsz8GtsllPyaMDOYzTiTXophADO.jpg"
-      },
-      {
-        "title": "Painkili",
-        "releaseDate": "14 February 2025",
-        "cast": "Sajin Gopu, Anaswara Rajan, Roshan Shanavas, Jisma Vimal, Chandu Salimkumar, Lijo Jose Pellissery",
-        "crew": "Sreejith Babu (Director), Jithu Madhavan (Writer), Justin Varghese (Music), Arjun Sethu (Cinematography), Kiran Das (Editing)",
-        "plot": "Painkili is a Malayalam romantic comedy that follows Suku, a small-town graphic designer whose life takes an unexpected turn after a mishap leads him to feign mental illness to evade legal trouble. While navigating the challenges of maintaining this facade, he encounters Sheeba, a spirited young woman determined to escape her family's pressures. Their intertwined journeys explore themes of love, identity, and societal expectations, all delivered with a blend of humor and heartfelt moments.",
-        "platform": "Manorama Max (from 11 April 2025)",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hj2VTnrshKRFi6rUKd8neP4q8qO.jpg"
-      },
-      {
-        "title": "Pravinkoodu Shappu",
-        "releaseDate": "16 January 2025",
-        "cast": "Soubin Shahir, Basil Joseph, Chemban Vinod Jose, Chandini Sreedharan, Shabareesh Varma",
-        "crew": "Sreeraj Sreenivasan (Director), Vishnu Vijay (Music), Shyju Khalid (Cinematography)",
-        "plot": "Pravinkoodu Shappu is a Malayalam black comedy crime thriller that unfolds in a village toddy shop. The story begins with the mysterious death of Babu, the shop owner, leading to an investigation by Sub Inspector Santhosh. As the investigation progresses, it becomes clear that each of the eleven individuals present at the time of the incident has a potential motive, making the case increasingly complex. The film masterfully blends suspense with dark humor, keeping audiences engaged with its unpredictable twists and turns.",
-        "platform": "Sony LIV (from 11 April 2025)",
-        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/19RY8hiPUklE2UrjQrUiSgyVO5f.jpg"
-      }
-    ]
-  }
+      "title": "L2: Empuraan",
+      "releaseDate": "24 April 2024",
+      "cast": "Mohanlal, Prithviraj Sukumaran, Manju Warrier, Tovino Thomas",
+      "crew": "Prithviraj Sukumaran, Antony Perumbavoor, Gokulam Gopalan, Murali Gopy, Deepak Dev",
+      "plot": "L2: Empuraan is a sequel to Lucifer and continues the story of Khureshi-Ab'raam, the mysterious alter ego of Stephen Nedumpally. The plot delves into his rise through international crime and politics, revealing the origins of his power and influence. As he expands his empire, he faces enemies from both his past and present, leading to intense confrontations. The film intertwines political intrigue, action, and personal vendettas, setting the stage for a larger war between global forces and Khureshi's growing dominion.",
+      "platform": "JioHotstar",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dfaZipN3Aw5BK85nEvfr2FNg4EW.jpg"
+    },
+    {
+      "title": "Bromance",
+      "releaseDate": "14 February 2025",
+      "cast": "Mathew Thomas, Arjun Ashokan, Mahima Nambiar, Sangeeth Prathap, Kalabhavan Shajohn",
+      "crew": "Arun D. Jose (Director), Raveesh Nath, Thomas P. Sebastian (Writers), Govind Vasantha (Music)",
+      "plot": "Bromance is an adventure comedy that follows Binto as he teams up with his brother Shinto's friends to find his missing sibling. Their journey is filled with twists, revelations, and humor, offering a fresh take on brotherhood and youthful friendship amidst unexpected chaos.",
+      "platform": "SonyLIV (from 1 May 2025)",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2xzgtY0d7xbqeTWdF3tDgd5WeVM.jpg"
+    },
+    {
+      "title": "Officer on Duty",
+      "releaseDate": "20 February 2025",
+      "cast": "Kunchacko Boban, Priyamani, Jagadish, Vishak Nair",
+      "crew": "Jithu Ashraf (Director), Shahi Kabir (Writer), Jakes Bejoy (Music)",
+      "plot": "Officer on Duty is a gripping action thriller that follows CI Harishankar, a disciplined yet aggressive officer, as he investigates a case that unexpectedly ties into his personal trauma. As he uncovers a deeper nexus involving counterfeit gold and a powerful drug syndicate, Harishankar faces a test of justice, morality, and redemption.",
+      "platform": "Netflix (from 20 March 2025)",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ucwirgaK4v9ylQyDkwoXJtDIlf7.jpg"
+    },
+    {
+      "title": "Ouseppinte Osiyathu",
+      "releaseDate": "2 May 2025",
+      "cast": "Vijayaraghavan, Dileesh Pothan, Kalabhavan Shajohn, Lenaa, Kani Kusruti, Hemanth Menon",
+      "crew": "Sarath Chandran RJ (Director), Fazal Hassan (Writer), Sumesh Parameswar (Music), Arvind Kannabiran (Cinematography)",
+      "plot": "Ouseppinte Osiyathu is a poignant Malayalam drama set against the picturesque hills of Idukki. The film delves into the complexities of familial relationships, focusing on Ousepp, a resilient planter, and his three sons—Michael, George, and Roy. As ambition and personal desires clash, the family grapples with deep-seated resentments and the quest for redemption. The narrative explores themes of love, regret, and the enduring bonds of family.",
+      "platform": "Prime Video",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7yI1qSum03V9sFNHamWJEOhLZeA.jpg"
+    },
+    {
+      "title": "Daveed",
+      "releaseDate": "18 April 2025",
+      "cast": "Antony Varghese, Lijomol Jose, Vijayaraghavan, Saiju Kurup, Aju Varghese, Mo Ismail",
+      "crew": "Govind Vishnu (Director), Deepu Rajeevan & Govind Vishnu (Writers), Justin Varghese (Music)",
+      "plot": "Daveed is a Malayalam sports drama that follows Ashiq Abu, a middle-aged bouncer who faces a life-changing rivalry with Turkish boxer Sainul Akhmedov. The film explores themes of redemption, perseverance, and the underdog's journey.",
+      "platform": "ZEE5",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5looJkc3Siu7HqR5farCebWRxQo.jpg"
+    },
+    {
+      "title": "Dassettante Cycle",
+      "releaseDate": "14 March 2025",
+      "cast": "Hareesh Peradi, Anjana Appukkuttan",
+      "crew": "Akhil Kavungal (Director & Writer), Rahul C. Vimala (Cinematography), Jomon Cyriac (Editor)",
+      "plot": "Dassettante Cycle is a Malayalam comedy-drama that follows Dasan, a discontented security guard whose life takes unexpected turns as his family's journey unfolds. A series of intriguing incidents lead to the unraveling of long-held secrets, testing their bonds and resilience. The film delves into family dynamics, emotions, and humor, offering a heartfelt and engaging cinematic experience.",
+      "platform": "Prime Video",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cZtFexzmRX9hvMwPDZCSwRPSvjS.jpg"
+    },
+    {
+      "title": "Bad Boyz",
+      "releaseDate": "April 2025",
+      "cast": "Rahman, Dhyan Sreenivasan, Bibin George, Anson Paul, Senthil Krishna, Sheelu Abraham",
+      "crew": "Omar Lulu (Director), Sarang Jayaprakash (Writer), William Francis (Music)",
+      "plot": "Bad Boyz is a Malayalam action comedy that follows Antappan, a directionless schoolboy who finds purpose after meeting Mary, an achiever with a surprising fascination with local goons. To win her over, he dives into the dangerous world of crime and becomes a full-time goon himself. The story unfolds with suspense and humor, revealing the thrilling consequences of Antappan's decision.",
+      "platform": "Amazon Prime Video and Manorama Max",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bwVv1ZhaI4yiE1FLd7ZGD7pdzcd.jpg"
+    },
+    {
+      "title": "Painkili",
+      "releaseDate": "14 February 2025",
+      "cast": "Sajin Gopu, Anaswara Rajan, Roshan Shanavas, Jisma Vimal, Chandu Salimkumar, Lijo Jose Pellissery",
+      "crew": "Sreejith Babu (Director), Jithu Madhavan (Writer), Justin Varghese (Music), Arjun Sethu (Cinematography), Kiran Das (Editing)",
+      "plot": "Painkili is a Malayalam romantic comedy that follows Suku, a small-town graphic designer whose life takes an unexpected turn after a mishap leads him to feign mental illness to evade legal trouble. While navigating the challenges of maintaining this facade, he encounters Sheeba, a spirited young woman determined to escape her family's pressures. Their intertwined journeys explore themes of love, identity, and societal expectations, all delivered with a blend of humor and heartfelt moments.",
+      "platform": "Manorama Max (from 11 April 2025)",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hj2VTnrshKRFi6rUKd8neP4q8qO.jpg"
+    },
+    {
+      "title": "Pravinkoodu Shappu",
+      "releaseDate": "16 January 2025",
+      "cast": "Soubin Shahir, Basil Joseph, Chemban Vinod Jose, Chandini Sreedharan, Shabareesh Varma",
+      "crew": "Sreeraj Sreenivasan (Director), Vishnu Vijay (Music), Shyju Khalid (Cinematography)",
+      "plot": "Pravinkoodu Shappu is a Malayalam black comedy crime thriller that unfolds in a village toddy shop. The story begins with the mysterious death of Babu, the shop owner, leading to an investigation by Sub Inspector Santhosh. As the investigation progresses, it becomes clear that each of the eleven individuals present at the time of the incident has a potential motive, making the case increasingly complex. The film masterfully blends suspense with dark humor, keeping audiences engaged with its unpredictable twists and turns.",
+      "platform": "Sony LIV (from 11 April 2025)",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/19RY8hiPUklE2UrjQrUiSgyVO5f.jpg"
+    }
+  ]
+}
