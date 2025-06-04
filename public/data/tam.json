@@ -1,6 +1,35 @@
 {
     "movies": [
         {
+            "title": "Retro",
+            "releaseDate": "30 May 2025",
+            "cast": "Suriya, Disha Patani, Yogi Babu",
+            "crew": "Karthik Subbaraj (Director), S. J. Suryah (Producer), Santhosh Narayanan (Music), Shreyaas Krishna (Cinematography), Vivek Harshan (Editor)",
+            "plot": "Retro is a Tamil action drama featuring Suriya in a gripping tale centered around a sacred spear and a secret identity. The story unfolds with high-stakes action and emotional depth, exploring themes of loyalty and vengeance.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gSFLeUQuNjeABg4XBriyNyt6WmY.jpg"
+        },
+        
+        {
+            "title": "Nizharkudai",
+            "releaseDate": "30 May 2025",
+            "cast": "Devayani, Not Available",
+            "crew": "Not Available (Director), Not Available (Producer), Not Available (Music), Not Available (Cinematography), Not Available (Editor)",
+            "plot": "Nizharkudai is a Tamil drama film featuring Devayani in a pivotal role. The narrative focuses on emotional and dramatic elements, offering a compelling story tailored for regional audiences.",
+            "platform": "Aha Tamil, Simply South",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kwZIDwcKj6ltQEBEm9DObJqRWii.jpg"
+        },
+        
+        {
+            "title": "Tourist Family",
+            "releaseDate": "2 June 2025",
+            "cast": "Sasikumar, Simran",
+            "crew": "Abishan Jeevinth (Director), Not Available (Producer), Not Available (Music), Not Available (Cinematography), Not Available (Editor)",
+            "plot": "Tourist Family is a Tamil comedy-drama about a Sri Lankan Tamil family relocating to Chennai, posing as Malayalees to start anew after an economic crisis. The film blends humor and heartfelt moments as they adapt to their new life.",
+            "platform": "Disney+ Hotstar",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rEffPihtdQXiXfRdfq7pPM5JDqa.jpg"
+        },
+        {
             "title": "Good Bad Ugly",
             "releaseDate": "8 May 2025",
             "cast": "Ajith Kumar, Trisha Krishnan, Arjun Das",
@@ -63,7 +92,6 @@
             "platform": "ZEE5",
             "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/76AkmAqLNMMJZZWQXQ6KntEiLjK.jpg"
         },
-        
         {
             "title": "Dragon",
             "releaseDate": "21 March 2025",

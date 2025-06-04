@@ -1,6 +1,36 @@
 {
   "movies": [
     {
+      "title": "Thudarum",
+      "HSV": "Thudarum - A Gripping Malayalam Drama Thriller",
+      "releaseDate": "30 May 2025",
+      "cast": "Mohanlal, Shobana, Bharathiraja, Prakash Varma",
+      "crew": "Tharun Moorthy (Director, Writer), M Renjith (Producer), Jakes Bejoy (Music), Vysakh Sukumaran (Cinematography), Nishadh Yusuf (Editing)",
+      "plot": "Thudarum is a compelling drama thriller centered on Shanmugham, a humble taxi driver in Ranni, whose deep bond with his aging Ambassador car is tested by unexpected circumstances. The narrative weaves themes of honor killing and revenge, blending emotional family drama with intense action sequences. Mohanlal’s powerful performance as Benz, combined with a gritty screenplay and stellar music, delivers a massy yet grounded cinematic experience.",
+      "platform": "JioHotstar",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uOTDBabtxHA6szYKQNQe9Y7rFlv.jpg"
+    },
+    {
+      "title": "Padakkalam",
+      "HSV": "Padakkalam - A Whimsical Malayalam Fantasy Comedy",
+      "releaseDate": "10 June 2025",
+      "cast": "Suraj Venjaramoodu, Sharafudheen, Sandeep Pradeep, Niranjana Anoop, Pooja Mohanraj, Arun Ajikumar, Saaf Bros, Ishan Shoukath",
+      "crew": "Manu Swaraj (Director, Writer), Nithin C Babu (Writer), Vijay Babu (Producer), Vijay Subramaniam (Producer), Anu Moothedath (Cinematography), Nidhin Raj Arol (Editing), Rajesh Murugesan (Music)",
+      "plot": "Padakkalam is a supernatural fantasy comedy that follows four nerdy comic book enthusiasts in a college’s ECE department. Their lives take a chaotic turn when a charismatic professor, Ranjith, introduces a magical dice board with unpredictable powers. What begins as innocent curiosity spirals into a battle of wits and magical mayhem, blending campus shenanigans with pop culture references and heartfelt moments for a fun-filled adventure.",
+      "platform": "JioHotstar",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9m4lvnqvwppA4BIoxqcWsWna5is.jpg"
+    },
+    {
+      "title": "Alappuzha Gymkhana",
+      "HSV": "Alappuzha Gymkhana - A Heartwarming Malayalam Sports Comedy",
+      "releaseDate": "5 June 2025",
+      "cast": "Naslen, Lukman Avaran, Franco Francis, Noila Francy",
+      "crew": "Khalid Rahman (Director, Writer), Jobin George (Producer), Jimshi Khalid (Cinematography), Jakes Bejoy (Music), Mashar Hamsa (Editing)",
+      "plot": "Alappuzha Gymkhana is a sports comedy following a group of teenage boys who, after failing exams, turn to boxing to secure college admissions through sports quotas. Under tough training, they transform from rookies to contenders, facing rivals and personal insecurities. The film blends humor, heart, and boxing sequences, offering an entertaining and inspiring tale of self-discovery.",
+      "platform": "SonyLIV",
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q4OwzcY6r2L1M1S6uYzmtzjwAqX.jpg"
+    },
+    {
       "title": "Maranamass",
       "HSV": "Maranamass - A Quirky Malayalam Action Comedy",
       "releaseDate": "10 April 2025",
@@ -10,7 +40,7 @@
       "platform": "Sony LIV ",
       "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/erU6DGyYGEFrnE4reiGX3pytU2e.jpg"
     },
-      {
+    {
       "title": "L2: Empuraan",
       "releaseDate": "24 April 2024",
       "cast": "Mohanlal, Prithviraj Sukumaran, Manju Warrier, Tovino Thomas",
