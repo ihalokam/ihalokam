@@ -4,6 +4,7 @@ import fs from "fs";
 import expressSitemap from "express-sitemap";
 import path from "path";
 import favicon from "serve-favicon";
+import { inject } from "@vercel/analytics"
 
 const app = express();
 const port = process.env.PORT || 3000;
