@@ -1,6 +1,15 @@
 {
     "movies": [
         {
+            "title": "HIT: The Third Case",
+            "releaseDate": "1 May 2025",
+            "cast": "Nani, Srinidhi Shetty, Karthi (Cameo), Adivi Sesh (Cameo)",
+            "crew": "Sailesh Kolanu (Director, Writer), Prashanti Tipirneni (Producer), Nani (Producer), Mickey J. Meyer (Music), Sanu John Varghese (Cinematography)",
+            "plot": "HIT: The Third Case is a Telugu action thriller directed by Sailesh Kolanu, the third installment in the HIT franchise. It follows Arjun Sarkaar, a top Homicide Intervention Team (HIT) officer from Visakhapatnam, assigned to investigate a series of brutal murders in Jammu and Kashmir. As he pursues a group of elusive killers, the case tests his skills and mental strength, leading to a thrilling narrative filled with intense action and shocking twists.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wT9tGyFol4RBwkjESXUWeBdnLJn.jpg"
+        },
+        {
             "title": "Jack (Konchem Krack)",
             "releaseDate": "10 April 2025",
             "cast": "Siddhu Jonnalagadda, Vaishnavi Chaitanya",

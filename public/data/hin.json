@@ -1,6 +1,24 @@
 {
     "movies": [
         {
+            "title": "Sikandar",
+            "releaseDate": "30 March 2025 (Theatrical), May 2025 (OTT)",
+            "cast": "Salman Khan, Rashmika Mandanna, Kajal Aggarwal, Sharman Joshi, Sathyaraj, Prateik Babbar, Sanjay Kapoor, Jatin Sarna, Anjini Dhawan, Ayan Khan",
+            "crew": "A. R. Murugadoss (Director, Writer), Sajid Nadiadwala (Producer), Pritam (Music Composer), Santhosh Narayanan (Background Score), Tirru (Cinematography), Vivek Harshan (Editor)",
+            "plot": "Sikandar is a Hindi action drama directed by A. R. Murugadoss. The film follows Sanjay 'Sikandar' Rajkot, a man driven by a tragic accident to redeem his past by impacting the lives of three individuals. His journey pits him against a vengeful politician, blending intense action, emotional depth, and a social message. The narrative explores themes of redemption and justice, though it has been critiqued for a weak script despite strong action sequences.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pVVc22lqclqBgJxaIguRRkfqhT1.jpg"
+        },
+        {
+            "title": "Bhul Chuk Maaf",
+            "releaseDate": "16 May 2025",
+            "cast": "Rajkummar Rao, Wamiqa Gabbi",
+            "crew": "Vishal Bhardwaj (Director), Vishal Bhardwaj (Producer), Rekha Bhardwaj (Producer), Gulzar (Writer), Mitesh Shah (Writer), Vishal Bhardwaj (Music), Saurabh Goswami (Cinematography), A. Sreekar Prasad (Editor)",
+            "plot": "Bhul Chuk Maaf is a Hindi romantic comedy drama directed by Vishal Bhardwaj. The film follows a man trapped in a time loop the day before his wedding, forced to relive the same day repeatedly. As he navigates the loop, he uncovers deeper truths about his relationships and himself, blending humor, romance, and emotional depth.",
+            "platform": "Amazon Prime Video",
+            "poster": "https://upload.wikimedia.org/wikipedia/en/6/64/Bhool_Chuk_Maaf_film_poster.jpg"
+        },
+        {
             "title": "The Diplomat",
             "releaseDate": "9 May 2025",
             "cast": "John Abraham, Sadia Khateeb, Kumud Mishra, Revathy, Sharib Hashmi",
@@ -63,7 +81,6 @@
             "platform": "Netflix",
             "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vQsGkLx68lmAdGwNapaaq3qqwKn.jpg"
         },
-       
         {
             "title": "Housefull 5",
             "releaseDate": "14 February 2025",

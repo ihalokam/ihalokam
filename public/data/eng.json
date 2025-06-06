@@ -1,11 +1,38 @@
 {
     "movies": [
         {
-            "title": "Another Simple Favor",
+            "title": "Thunderbolts*",
+            "releaseDate": "2 May 2025",
+            "cast": "Florence Pugh, Sebastian Stan, David Harbour, Wyatt Russell, Olga Kurylenko, Hannah John-Kamen, Julia Louis-Dreyfus",
+            "crew": "Jake Schreier (Director), Eric Pearson (Writer), Kevin Feige (Producer), Ludwig Göransson (Music), Kramer Morgenthau (Cinematography), Matthew Schmidt (Editor)",
+            "plot": "Thunderbolts* is a Marvel superhero action film featuring a team of antiheroes and C-list heroes from the MCU. Led by Yelena Belova (Florence Pugh), the group—including Bucky Barnes (Sebastian Stan) and Red Guardian (David Harbour)—tackles a high-stakes mission against a despair-driven villain. The film balances intense action, emotional depth, and humor, offering a fresh take on the superhero genre.",
+            "platform": "Disney+ Hotstar",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/m9EtP1Yrzv6v7dMaC9mRaGhd1um.jpg"
+        },
+        {
+            "title": "Final Destination: Bloodlines",
+            "releaseDate": "16 May 2025",
+            "cast": "Tony Todd, Brec Bassinger, Richard Harmon, Teo Briones, Grace Caroline Currey",
+            "crew": "Zach Lipovsky (Director), Adam B. Stein (Director), Jon Watts (Writer), Craig Perry (Producer), Bear McCreary (Music), Adam Stein (Cinematography), Matt Drake (Editor)",
+            "plot": "Final Destination: Bloodlines is a horror thriller marking the franchise’s 25th anniversary. It follows a group of young adults, led by Brec Bassinger’s character, who cheat death after a tragic accident but are hunted by Death’s relentless force. The film delivers gruesome set pieces, including a tattoo artist’s untimely demise, blending suspense and supernatural horror.",
+            "platform": "Netflix",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg"
+        },
+        {
+            "title": "Lilo & Stitch",
+            "releaseDate": "23 May 2025",
+            "cast": "Maia Kealoha, Sydney Elizebeth Agudong, Billy Magnussen, Tia Carrere, Hannah W Aperturesdingham, Chris Sanders, Courtney B. Vance, Zach Galifianakis",
+            "crew": "Dean Fleischer-Camp (Director), Chris Kekaniokalani Bright (Writer), Jonathan Eirich (Producer), Dan Lin (Producer), Christopher T. Sadler (Music), Andrew Dunn (Cinematography), Mary Brehmer (Editor)",
+            "plot": "Lilo & Stitch is a live-action remake of the 2002 animated classic. Set in Hawaii, it follows Lilo, a young orphan (Maia Kealoha), who befriends Stitch, an alien who crash-lands on Earth. Their bond navigates family, friendship, and chaos as they evade alien hunters, delivering heartwarming and comedic moments.",
+            "platform": "Disney+ Hotstar",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tUae3mefrDVTgm5mRzqWnZK6fOP.jpg"
+        },
+        {
+            "title": "A Simple Favor 2",
             "releaseDate": "1 May 2025",
-            "cast": "Anna Kendrick, Blake Lively, Henry Golding, Andrew Rannells, Bashir Salahuddin, Elizabeth Perkins",
-            "crew": "Paul Feig (Director), Jessica Sharzer (Writer), Information not available (Producer, Music, Cinematography, Editor)",
-            "plot": "Another Simple Favor is a stylish English thriller-comedy sequel. Stephanie and Emily dive into another twisted mystery, blending deception, fashion, and dark humor, captivating audiences.",
+            "cast": "Blake Lively, Anna Kendrick, Allison Janney, Henry Golding, Andrew Rannells, Michele Morrone",
+            "crew": "Paul Feig (Director), Jessica Sharzer (Writer), Paul Feig (Producer), Laura Fischer (Producer), Kristen Bell (Music), John Schwartzman (Cinematography), Brent White (Editor)",
+            "plot": "A Simple Favor 2 is a English comedy-thriller sequel to the 2018 hit. It follows Emily (Blake Lively), now living in Italy, as she prepares to wed a wealthy businessman, with Stephanie (Anna Kendrick) as her maid of honor. Their glamorous trip to Capri unravels with dark secrets, murder, and betrayal, blending sharp wit, suspense, and stylish drama as the duo navigates a web of deception.",
             "platform": "Amazon Prime Video",
             "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zboCGZ4aIqPMd7VFI4HWnmc7KYJ.jpg"
         },
