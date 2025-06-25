@@ -1,6 +1,15 @@
 {
     "movies": [
         {
+            "title": "Eleven",
+            "releaseDate": "16 May 2025",
+            "cast": "Naveen Chandra, Reyaa Hari, Abhirami, Shashank, Dileepan, Riythvika, Aadukalam Naren, Ravi Varma, Arjai, Kireeti Damaraju",
+            "crew": "Lokkesh Ajls (Director, Writer), Ajmal Khan & Reyaa Hari (Producers), D. Imman (Music), Karthik Ashokan (Cinematography), N. B. Srikanth (Editor)",
+            "plot": "ACP Aravind, a brilliant police officer, investigates a chilling serial-killer targeting twins. The masked murderer, Benjamin, manipulates surviving twins to kill their siblings, unveiling a traumatic school past that drives the revenge chain of murders.",
+            "platform": "Theatrical & OTT (Aha Tamil, Tentkotta, SimplySouth from 13 Jun 2025)",
+            "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/IMAGE_IS_PLACEHOLDER.jpg"
+        },
+        {
             "title": "Retro",
             "releaseDate": "30 May 2025",
             "cast": "Suriya, Disha Patani, Yogi Babu",
@@ -9,7 +18,6 @@
             "platform": "Netflix",
             "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gSFLeUQuNjeABg4XBriyNyt6WmY.jpg"
         },
-        
         {
             "title": "Nizharkudai",
             "releaseDate": "30 May 2025",
@@ -19,7 +27,6 @@
             "platform": "Aha Tamil, Simply South",
             "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kwZIDwcKj6ltQEBEm9DObJqRWii.jpg"
         },
-        
         {
             "title": "Tourist Family",
             "releaseDate": "2 June 2025",
